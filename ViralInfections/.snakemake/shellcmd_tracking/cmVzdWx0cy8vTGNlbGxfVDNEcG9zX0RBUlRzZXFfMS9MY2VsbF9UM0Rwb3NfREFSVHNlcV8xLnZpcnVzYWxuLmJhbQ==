@@ -1,0 +1,8 @@
+
+				prinseq-lite.pl -min_len 25 -fastq results//Lcell_T3Dpos_DARTseq_1/Lcell_T3Dpos_DARTseq_1_STAR_host_unaligned.fastq -out_good results//Lcell_T3Dpos_DARTseq_1/Lcell_T3Dpos_DARTseq_1.nonhost.filter.fastq -out_bad null ;
+				mv results//Lcell_T3Dpos_DARTseq_1/Lcell_T3Dpos_DARTseq_1.nonhost.filter.fastq.fastq results//Lcell_T3Dpos_DARTseq_1/Lcell_T3Dpos_DARTseq_1.nonhost.filter.fastq ; 
+				/programs/bwa-0.7.8/bwa mem -t 4 references/Reo/reo_T3D.fasta results//Lcell_T3Dpos_DARTseq_1/Lcell_T3Dpos_DARTseq_1.nonhost.filter.fastq | /programs/samtools-1.6/bin/samtools view -bS - 					| /programs/samtools-1.6/bin/samtools view -h -F 4 - | /programs/samtools-1.6/bin/samtools view -bS - > results//Lcell_T3Dpos_DARTseq_1/Lcell_T3Dpos_DARTseq_1.virusaln.bam ;
+				/programs/samtools-1.6/bin/samtools view results//Lcell_T3Dpos_DARTseq_1/Lcell_T3Dpos_DARTseq_1.virusaln.bam > results//Lcell_T3Dpos_DARTseq_1/Lcell_T3Dpos_DARTseq_1.virusaln.sam ;
+				/programs/samtools-1.6/bin/samtools view -H results//Lcell_T3Dpos_DARTseq_1/Lcell_T3Dpos_DARTseq_1.virusaln.bam > results//Lcell_T3Dpos_DARTseq_1/Lcell_T3Dpos_DARTseq_1.virusaln.samhead ;
+				cut -f 1 results//Lcell_T3Dpos_DARTseq_1/Lcell_T3Dpos_DARTseq_1.virusaln.sam > results//Lcell_T3Dpos_DARTseq_1/Lcell_T3Dpos_DARTseq_1.virusaln.list ;
+			

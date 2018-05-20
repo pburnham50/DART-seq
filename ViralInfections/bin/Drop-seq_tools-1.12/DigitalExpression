@@ -1,0 +1,37 @@
+#!/bin/bash
+
+xmx=4g
+
+progname=DigitalExpression
+jar_deploy_dir=`dirname $0`/jar
+
+USAGE=$(cat << EOF
+USAGE: $0 [-m <jvm_heap_size>] program args...
+       -m <jvm_heap_size> (default $xmx)
+    
+To get help for the program rather than the script:
+   $0 -- -h
+EOF
+)
+
+function usage () {
+    echo "$USAGE" >&2
+}
+
+set -e
+
+while getopts ":m:" options; do
+  case $options in
+    m ) xmx=$OPTARG;;
+    h ) usage
+          exit 1;;
+    \? ) usage
+         exit 1;;
+    * ) usage
+          exit 1;;
+
+  esac
+done
+shift $(($OPTIND - 1))
+
+java -Xmx${xmx} -jar $jar_deploy_dir/dropseq.jar $progname $*

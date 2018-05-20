@@ -1,0 +1,8 @@
+
+				prinseq-lite.pl -min_len 25 -fastq results//IPM.Reolow3/IPM.Reolow3_STAR_host_unaligned.fastq -out_good results//IPM.Reolow3/IPM.Reolow3.nonhost.filter.fastq -out_bad null ;
+				mv results//IPM.Reolow3/IPM.Reolow3.nonhost.filter.fastq.fastq results//IPM.Reolow3/IPM.Reolow3.nonhost.filter.fastq ; 
+				/programs/bwa-0.7.8/bwa mem -t 4 references/Reo/reo_T3D.fasta results//IPM.Reolow3/IPM.Reolow3.nonhost.filter.fastq | /programs/samtools-1.6/bin/samtools view -bS - 					| /programs/samtools-1.6/bin/samtools view -h -F 4 - | /programs/samtools-1.6/bin/samtools view -bS - > results//IPM.Reolow3/IPM.Reolow3.virusaln.bam ;
+				/programs/samtools-1.6/bin/samtools view results//IPM.Reolow3/IPM.Reolow3.virusaln.bam > results//IPM.Reolow3/IPM.Reolow3.virusaln.sam ;
+				/programs/samtools-1.6/bin/samtools view -H results//IPM.Reolow3/IPM.Reolow3.virusaln.bam > results//IPM.Reolow3/IPM.Reolow3.virusaln.samhead ;
+				cut -f 1 results//IPM.Reolow3/IPM.Reolow3.virusaln.sam > results//IPM.Reolow3/IPM.Reolow3.virusaln.list ;
+			

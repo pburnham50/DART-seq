@@ -1,0 +1,5 @@
+
+			gzip results//test/test.nonhost.filter.fastq ;
+			rm -f results/test/*tmp* ;
+			rm -fr results/test/cells
+			

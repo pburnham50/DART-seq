@@ -1,0 +1,77 @@
+File path results//IPM.Reolow3/IPM.Reolow3_expression_matrix.txt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3.virus.barcodes.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3.virusaln.list contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3.totalvircounts.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3.virus.0.tmp contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3.virus.1.tmp contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3.virus.2.tmp contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3.virus.3.tmp contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3.virus.barcodes.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_expression_matrix.txt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_expression_matrix.txt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_STAR_host_unaligned.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3.nonhost.filter.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3.virusaln.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3.virusaln.samhead contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3.virusaln.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3.virusaln.list contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/logs/IPM.Reolow3_STAR_Aligned.out.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/logs/IPM.Reolow3_STAR_Unmapped.out.mate1 contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_Aligned.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_STAR_host_unaligned.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_tagged_unmapped.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/logs/IPM.Reolow3_STAR_Aligned.out.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/logs/IPM.Reolow3_STAR_Unmapped.out.mate1 contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_tagged_unmapped.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_tagged_unmapped.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_unaligned.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_tagged_unmapped.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_unaligned.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_final.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_expression_matrix.txt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_dge.summary.txt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_gene_exon_tagged.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_final.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_tagged_unmapped.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_Aligned_sorted.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_gene_exon_tagged.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_Aligned.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_Aligned_sorted.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+Provided cores: 20
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	viral_aln
+	1	viral_clean
+	3
+
+rule viral_aln:
+    input: results//IPM.Reolow3/IPM.Reolow3_STAR_host_unaligned.fastq
+    output: results//IPM.Reolow3/IPM.Reolow3.nonhost.filter.fastq, results//IPM.Reolow3/IPM.Reolow3.virusaln.sam, results//IPM.Reolow3/IPM.Reolow3.virusaln.samhead, results//IPM.Reolow3/IPM.Reolow3.virusaln.bam, results//IPM.Reolow3/IPM.Reolow3.virusaln.list
+    jobid: 3
+    wildcards: path=results//IPM.Reolow3, sample=IPM.Reolow3
+    threads: 4
+
+Finished job 3.
+1 of 3 steps (33%) done
+
+rule viral_clean:
+    input: /workdir/Data/SingleCell/IPM.Reolow3.R1.fastq.gz, results//IPM.Reolow3/IPM.Reolow3.virusaln.list
+    output: results//IPM.Reolow3/IPM.Reolow3.totalvircounts.tab, results//IPM.Reolow3/IPM.Reolow3.virus.0.tmp, results//IPM.Reolow3/IPM.Reolow3.virus.1.tmp, results//IPM.Reolow3/IPM.Reolow3.virus.2.tmp, results//IPM.Reolow3/IPM.Reolow3.virus.3.tmp, results//IPM.Reolow3/IPM.Reolow3.virus.barcodes.tab
+    jobid: 1
+    wildcards: path=results//IPM.Reolow3, sample=IPM.Reolow3
+
+Removing temporary output file results//IPM.Reolow3/IPM.Reolow3.virus.0.tmp.
+Removing temporary output file results//IPM.Reolow3/IPM.Reolow3.virus.1.tmp.
+Removing temporary output file results//IPM.Reolow3/IPM.Reolow3.virus.2.tmp.
+Removing temporary output file results//IPM.Reolow3/IPM.Reolow3.virus.3.tmp.
+Finished job 1.
+2 of 3 steps (67%) done
+
+localrule all:
+    input: results//IPM.Reolow3/IPM.Reolow3_expression_matrix.txt, results//IPM.Reolow3/IPM.Reolow3.virus.barcodes.tab
+    jobid: 0
+
+Finished job 0.
+3 of 3 steps (100%) done

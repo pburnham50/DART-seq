@@ -1,0 +1,1 @@
+bin/Drop-seq_tools-1.12//DigitalExpression				I=results//test/test_final.bam				O=results//test/test_expression_matrix.txt.gz				SUMMARY=test_dge.summary.txt 				NUM_CORE_BARCODES=2500

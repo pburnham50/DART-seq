@@ -1,0 +1,4 @@
+
+				cp results//test/logs/test_STAR_Aligned.out.sam results//test/test_Aligned.sam ;
+				cp results//test/logs/test_STAR_Unmapped.out.mate1 results//test/test_STAR_host_unaligned.fastq ;				
+			

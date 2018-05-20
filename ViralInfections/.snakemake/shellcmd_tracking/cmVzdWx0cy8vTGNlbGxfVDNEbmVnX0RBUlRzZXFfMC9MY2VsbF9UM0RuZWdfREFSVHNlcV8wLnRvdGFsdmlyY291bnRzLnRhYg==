@@ -1,0 +1,8 @@
+
+			zcat data/Lcell_T3Dneg_DARTseq_0.R1.fastq.gz | LANG=C grep -Fwf results//Lcell_T3Dneg_DARTseq_0/Lcell_T3Dneg_DARTseq_0.virusaln.list -A 1 --no-group-separator 				| awk 'NR % 2 == 0' | sort | uniq 				| cut -c 1-12 |sort | uniq -c 				| tr -s ' ' > results//Lcell_T3Dneg_DARTseq_0/Lcell_T3Dneg_DARTseq_0.totalvircounts.tab ;
+			zcat data/Lcell_T3Dneg_DARTseq_0.R1.fastq.gz | LANG=C grep -Fwf results//Lcell_T3Dneg_DARTseq_0/Lcell_T3Dneg_DARTseq_0.virusaln.list -A 1 --no-group-separator 				| awk 'NR % 2 == 0' > results//Lcell_T3Dneg_DARTseq_0/Lcell_T3Dneg_DARTseq_0.virus.0.tmp ;
+			cut -c 1-12 results//Lcell_T3Dneg_DARTseq_0/Lcell_T3Dneg_DARTseq_0.virus.0.tmp > results//Lcell_T3Dneg_DARTseq_0/Lcell_T3Dneg_DARTseq_0.virus.1.tmp ;
+			cut -c 13-20 results//Lcell_T3Dneg_DARTseq_0/Lcell_T3Dneg_DARTseq_0.virus.0.tmp > results//Lcell_T3Dneg_DARTseq_0/Lcell_T3Dneg_DARTseq_0.virus.2.tmp ; 
+			zcat data/Lcell_T3Dneg_DARTseq_0.R1.fastq.gz | LANG=C grep -Fwf results//Lcell_T3Dneg_DARTseq_0/Lcell_T3Dneg_DARTseq_0.virusaln.list | cut -d' ' -f 1 | sed 's/@//g' > results//Lcell_T3Dneg_DARTseq_0/Lcell_T3Dneg_DARTseq_0.virus.3.tmp ;
+			paste results//Lcell_T3Dneg_DARTseq_0/Lcell_T3Dneg_DARTseq_0.virus.3.tmp results//Lcell_T3Dneg_DARTseq_0/Lcell_T3Dneg_DARTseq_0.virus.0.tmp results//Lcell_T3Dneg_DARTseq_0/Lcell_T3Dneg_DARTseq_0.virus.1.tmp results//Lcell_T3Dneg_DARTseq_0/Lcell_T3Dneg_DARTseq_0.virus.2.tmp > results//Lcell_T3Dneg_DARTseq_0/Lcell_T3Dneg_DARTseq_0.virus.barcodes.tab ;
+			

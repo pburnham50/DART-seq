@@ -1,0 +1,4 @@
+bin/Drop-seq_tools-1.12//DetectBeadSynthesisErrors				INPUT=results//Lcell_T3Dpos_DARTseq_0/Lcell_T3Dpos_DARTseq_0_gene_exon_tagged.bam				OUTPUT=results//Lcell_T3Dpos_DARTseq_0/Lcell_T3Dpos_DARTseq_0_final.bam				OUTPUT_STATS=results//Lcell_T3Dpos_DARTseq_0/logs/Lcell_T3Dpos_DARTseq_0_synthesis_stats.txt				SUMMARY=results//Lcell_T3Dpos_DARTseq_0/logs/Lcell_T3Dpos_DARTseq_0_synthesis_summary.txt				NUM_BARCODES=2000				PRIMER_SEQUENCE=AAGCAGTGGTATCAACGCAGAGTAC;
+				bin/Drop-seq_tools-1.12//SingleCellRnaSeqMetricsCollector				INPUT=results//Lcell_T3Dpos_DARTseq_0/Lcell_T3Dpos_DARTseq_0_gene_exon_tagged.bam				OUTPUT=results//Lcell_T3Dpos_DARTseq_0/logs/Lcell_T3Dpos_DARTseq_0_rna_metrics.txt				ANNOTATIONS_FILE=references/mm10/mm10.refFlat				NUM_CORE_BARCODES=1000 ; 
+				RIBOSOMAL_INTERVALS=references/mm10/mm10.rRNA.intervals
+				

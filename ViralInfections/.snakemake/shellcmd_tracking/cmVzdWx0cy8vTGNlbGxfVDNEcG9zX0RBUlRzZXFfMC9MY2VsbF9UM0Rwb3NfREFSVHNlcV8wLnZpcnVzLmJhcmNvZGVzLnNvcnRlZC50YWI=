@@ -1,0 +1,6 @@
+
+			sort -k 1,1 results//Lcell_T3Dpos_DARTseq_0/Lcell_T3Dpos_DARTseq_0.virusaln.sam > results//Lcell_T3Dpos_DARTseq_0/Lcell_T3Dpos_DARTseq_0.virusaln.sort.sam ;
+			sort -k	1,1 results//Lcell_T3Dpos_DARTseq_0/Lcell_T3Dpos_DARTseq_0.virus.barcodes.tab > results//Lcell_T3Dpos_DARTseq_0/Lcell_T3Dpos_DARTseq_0.virus.barcodes.sorted.tab ;
+			join -j 1 results//Lcell_T3Dpos_DARTseq_0/Lcell_T3Dpos_DARTseq_0.virus.barcodes.sorted.tab results//Lcell_T3Dpos_DARTseq_0/Lcell_T3Dpos_DARTseq_0.virusaln.sort.sam | sort -k2,2 				| awk '{ if (a[$2]++ == 0) print $0; }' "$@" > results//Lcell_T3Dpos_DARTseq_0/Lcell_T3Dpos_DARTseq_0.virus.barcoded.sam ;
+			awk '{if ($5 == 0) print $3"	"$6"	+	"$7 ; else if ($5 == 16) print $3"	"$6"	-	"$7}' results//Lcell_T3Dpos_DARTseq_0/Lcell_T3Dpos_DARTseq_0.virus.barcoded.sam > results//Lcell_T3Dpos_DARTseq_0/Lcell_T3Dpos_DARTseq_0.virgenes.tab ;
+			

@@ -1,0 +1,6 @@
+
+			sort -k 1,1 results//test/test.virusaln.sam > results//test/test.virusaln.sort.sam ;
+			sort -k	1,1 results//test/test.virus.barcodes.tab > results//test/test.virus.barcodes.sorted.tab ;
+			join -j 1 results//test/test.virus.barcodes.sorted.tab results//test/test.virusaln.sort.sam | sort -k2,2 				| awk '{ if (a[$2]++ == 0) print $0; }' "$@" > results//test/test.virus.barcoded.sam ;
+			awk '{if ($5 == 0) print $3"	"$6"	+	"$7 ; else if ($5 == 16) print $3"	"$6"	-	"$7}' results//test/test.virus.barcoded.sam > results//test/test.virgenes.tab ;
+			

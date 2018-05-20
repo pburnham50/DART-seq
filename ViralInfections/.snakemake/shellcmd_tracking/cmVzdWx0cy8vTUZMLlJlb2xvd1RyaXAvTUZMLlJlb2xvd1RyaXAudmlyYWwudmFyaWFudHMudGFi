@@ -1,0 +1,3 @@
+
+			bin/programs/bam-readcount-master/bin/bam-readcount -w 0 -f references/Reo/reo_T3D.fasta results//MFL.ReolowTrip/MFL.ReolowTrip.virus.refined.sorted.bam 				| sed 's/:/	/g' | cut -f 1,2,20,34,48,62 > results//MFL.ReolowTrip/MFL.ReolowTrip.viral.variants.tab ;
+			

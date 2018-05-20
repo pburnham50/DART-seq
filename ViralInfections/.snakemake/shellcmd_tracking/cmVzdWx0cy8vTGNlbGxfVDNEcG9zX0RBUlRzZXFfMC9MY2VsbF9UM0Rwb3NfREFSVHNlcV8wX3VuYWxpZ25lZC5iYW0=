@@ -1,0 +1,3 @@
+
+				java -Djava.io.tmpdir=/workdir/psb84/scViral/temp -jar /programs/picard-tools-2.1.1/picard.jar FastqToSam				F1=data/Lcell_T3Dpos_DARTseq_0.R1.fastq.gz				F2=data/Lcell_T3Dpos_DARTseq_0.R2.fastq.gz				SM=DS O=results//Lcell_T3Dpos_DARTseq_0/Lcell_T3Dpos_DARTseq_0_unaligned.bam
+			

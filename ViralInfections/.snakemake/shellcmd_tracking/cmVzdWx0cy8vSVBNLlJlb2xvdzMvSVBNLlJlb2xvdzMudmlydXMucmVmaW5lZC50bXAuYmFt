@@ -1,0 +1,8 @@
+
+			cut -d' ' -f 1,5- results//IPM.Reolow3/IPM.Reolow3.virus.barcoded.sam | sed 's/\s/	/g' > results//IPM.Reolow3/IPM.Reolow3.virus.refined.tmp.sam ;
+			cat results//IPM.Reolow3/IPM.Reolow3.virusaln.samhead results//IPM.Reolow3/IPM.Reolow3.virus.refined.tmp.sam | /programs/samtools-1.6/bin/samtools view -bS - > results//IPM.Reolow3/IPM.Reolow3.virus.refined.tmp.bam ;
+			samtools sort -@ 4 -o results//IPM.Reolow3/IPM.Reolow3.virus.refined.sorted.tmp.bam results//IPM.Reolow3/IPM.Reolow3.virus.refined.tmp.bam ;
+			samtools index results//IPM.Reolow3/IPM.Reolow3.virus.refined.sorted.tmp.bam ;
+			samtools depth -aa -m 1000000 results//IPM.Reolow3/IPM.Reolow3.virus.refined.sorted.tmp.bam > results//IPM.Reolow3/IPM.Reolow3.virus.depth ;
+			bedtools bamtobed -i results//IPM.Reolow3/IPM.Reolow3.virus.refined.sorted.tmp.bam > results//IPM.Reolow3/IPM.Reolow3.virus.refined.bed ;
+			

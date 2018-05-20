@@ -1,0 +1,3 @@
+
+				java -Xmx500m -jar -Djava.io.tmpdir=/workdir/psb84/scViral/temp /programs/picard-tools-2.1.1/picard.jar SamToFastq 				INPUT=results//test/test_tagged_unmapped.bam 				FASTQ=results//test/test_tagged_unmapped.fastq
+			

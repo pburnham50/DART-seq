@@ -1,0 +1,3 @@
+
+				java -Djava.io.tmpdir=/workdir/psb84/scViral/temp -jar /programs/picard-tools-2.1.1/picard.jar FastqToSam				F1=/workdir/Data/SingleCell/test.R1.fastq.gz				F2=/workdir/Data/SingleCell/test.R2.fastq.gz				SM=DS O=results//test/test_unaligned.bam
+			

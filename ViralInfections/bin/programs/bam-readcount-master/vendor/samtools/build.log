@@ -1,0 +1,20 @@
+bgzf.c: In function ‘worker_aux’:
+bgzf.c:392:9: warning: variable ‘tmp’ set but not used [-Wunused-but-set-variable]
+  int i, tmp, stop = 0;
+         ^
+bgzf.c: In function ‘bgzf_close’:
+bgzf.c:572:11: warning: variable ‘count’ set but not used [-Wunused-but-set-variable]
+  int ret, count, block_length;
+           ^
+bam_pileup.c: In function ‘resolve_cigar2’:
+bam_pileup.c:75:9: warning: variable ‘is_head’ set but not used [-Wunused-but-set-variable]
+  int k, is_head = 0;
+         ^
+bam_reheader.c: In function ‘bam_reheader’:
+bam_reheader.c:12:16: warning: variable ‘old’ set but not used [-Wunused-but-set-variable]
+  bam_header_t *old;
+                ^
+kprobaln.c: In function ‘kpa_glocal’:
+kprobaln.c:78:21: warning: variable ‘is_diff’ set but not used [-Wunused-but-set-variable]
+  int bw, bw2, i, k, is_diff = 0, is_backward = 1, Pr;
+                     ^

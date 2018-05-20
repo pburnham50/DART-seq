@@ -1,0 +1,6 @@
+
+			gzip results//IPM.Reolow3/IPM.Reolow3.nonhost.filter.fastq ;
+			rm -f results/IPM.Reolow3/*tmp* ;
+			rm -fr results/IPM.Reolow3/cells ;
+			rm -fr results/IPM.Reolow3/logs ;
+			

@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DCMAKE_CXX_FLAGS=-DGTEST_USE_OWN_TR1_TUPLE=1;-GUnix Makefiles;/workdir/psb84/KTx/Bin/bam-readcount-master/vendor/src/gtest160'

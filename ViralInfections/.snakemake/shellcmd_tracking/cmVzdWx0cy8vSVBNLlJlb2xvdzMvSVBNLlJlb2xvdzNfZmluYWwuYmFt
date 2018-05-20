@@ -1,0 +1,4 @@
+bin/Drop-seq_tools-1.12//DetectBeadSynthesisErrors				INPUT=results//IPM.Reolow3/IPM.Reolow3_gene_exon_tagged.bam				OUTPUT=results//IPM.Reolow3/IPM.Reolow3_final.bam				OUTPUT_STATS=results//IPM.Reolow3/logs/IPM.Reolow3_synthesis_stats.txt				SUMMARY=results//IPM.Reolow3/logs/IPM.Reolow3_synthesis_summary.txt				NUM_BARCODES=2000				PRIMER_SEQUENCE=AAGCAGTGGTATCAACGCAGAGTAC;
+				bin/Drop-seq_tools-1.12//SingleCellRnaSeqMetricsCollector				INPUT=results//IPM.Reolow3/IPM.Reolow3_gene_exon_tagged.bam				OUTPUT=results//IPM.Reolow3/logs/IPM.Reolow3_rna_metrics.txt				ANNOTATIONS_FILE=references/mm10/mm10.refFlat				NUM_CORE_BARCODES=1000 ; 
+				RIBOSOMAL_INTERVALS=references/mm10/mm10.rRNA.intervals
+				

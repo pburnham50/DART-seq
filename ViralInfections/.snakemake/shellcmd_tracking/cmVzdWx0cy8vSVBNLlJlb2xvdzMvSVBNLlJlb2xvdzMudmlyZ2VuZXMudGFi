@@ -1,0 +1,6 @@
+
+			sort -k 1,1 results//IPM.Reolow3/IPM.Reolow3.virusaln.tmp.sam > results//IPM.Reolow3/IPM.Reolow3.virusaln.sort.sam ;
+			sort -k	1,1 results//IPM.Reolow3/IPM.Reolow3.virus.barcodes.tab > results//IPM.Reolow3/IPM.Reolow3.virus.barcodes.sorted.tab ;
+			join -j 1 results//IPM.Reolow3/IPM.Reolow3.virus.barcodes.sorted.tab results//IPM.Reolow3/IPM.Reolow3.virusaln.sort.sam | sort -k2,2 				| awk '{ if (a[$2]++ == 0) print $0; }' "$@" > results//IPM.Reolow3/IPM.Reolow3.virus.barcoded.sam ;
+			awk '{if ($5 == 0) print $3"	"$6"	+	"$7 ; else if ($5 == 16) print $3"	"$6"	-	"$7}' results//IPM.Reolow3/IPM.Reolow3.virus.barcoded.sam > results//IPM.Reolow3/IPM.Reolow3.virgenes.tab ;
+			

@@ -1,0 +1,152 @@
+File path results//IPM.Reolow3/IPM.Reolow3.viablecells.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_gene_exon_tagged.flagstat contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_gene_exon_tagged.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_gene_exon_tagged.flagstat contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/summary/IPM.Reolow3_expression_matrix.txt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3.viablecells.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_tagged_unmapped.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_Aligned_sorted.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_gene_exon_tagged.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_Aligned.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_Aligned_sorted.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_unaligned.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_tagged_unmapped.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/logs/IPM.Reolow3_STAR_Aligned.out.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/logs/IPM.Reolow3_STAR_Unmapped.out.mate1 contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_Aligned.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_STAR_host_unaligned.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_tagged_unmapped.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/logs/IPM.Reolow3_STAR_Aligned.out.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/logs/IPM.Reolow3_STAR_Unmapped.out.mate1 contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_tagged_unmapped.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_tagged_unmapped.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_unaligned.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/summary/IPM.Reolow3_expression_matrix.txt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/summary/IPM.Reolow3_expression_matrix.txt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_final.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/summary/IPM.Reolow3_expression_matrix.txt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_gene_exon_tagged.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IPM.Reolow3/IPM.Reolow3_final.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+Provided cores: 12
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	STAR_align
+	1	all
+	1	bead_errors_metrics
+	1	extract_expression
+	1	fastq_to_sam
+	1	gunzip
+	1	host_align_stats
+	1	hostpathstats
+	1	mv_files
+	1	sam_to_fastq
+	1	sort
+	1	stage1
+	1	stage3
+	13
+
+rule fastq_to_sam:
+    input: data/IPM.Reolow3.R1.fastq.gz, data/IPM.Reolow3.R2.fastq.gz
+    output: results//IPM.Reolow3/IPM.Reolow3_unaligned.bam
+    jobid: 9
+    wildcards: path=results//IPM.Reolow3, sample=IPM.Reolow3
+
+Finished job 9.
+1 of 13 steps (8%) done
+
+rule stage1:
+    input: results//IPM.Reolow3/IPM.Reolow3_unaligned.bam
+    output: results//IPM.Reolow3/IPM.Reolow3_tagged_unmapped.bam
+    jobid: 6
+    wildcards: path=results//IPM.Reolow3, sample=IPM.Reolow3
+    threads: 4
+
+Removing temporary output file results//IPM.Reolow3/IPM.Reolow3_unaligned.bam.
+Finished job 6.
+2 of 13 steps (15%) done
+
+rule sam_to_fastq:
+    input: results//IPM.Reolow3/IPM.Reolow3_tagged_unmapped.bam
+    output: results//IPM.Reolow3/IPM.Reolow3_tagged_unmapped.fastq
+    jobid: 12
+    wildcards: path=results//IPM.Reolow3, sample=IPM.Reolow3
+
+Finished job 12.
+3 of 13 steps (23%) done
+
+rule STAR_align:
+    input: results//IPM.Reolow3/IPM.Reolow3_tagged_unmapped.fastq
+    output: results//IPM.Reolow3/logs/IPM.Reolow3_STAR_Aligned.out.sam, results//IPM.Reolow3/logs/IPM.Reolow3_STAR_Unmapped.out.mate1
+    jobid: 11
+    wildcards: path=results//IPM.Reolow3, sample=IPM.Reolow3
+    threads: 8
+
+Finished job 11.
+4 of 13 steps (31%) done
+
+rule mv_files:
+    input: results//IPM.Reolow3/logs/IPM.Reolow3_STAR_Aligned.out.sam, results//IPM.Reolow3/logs/IPM.Reolow3_STAR_Unmapped.out.mate1
+    output: results//IPM.Reolow3/IPM.Reolow3_Aligned.sam, results//IPM.Reolow3/IPM.Reolow3_STAR_host_unaligned.fastq
+    jobid: 8
+    wildcards: path=results//IPM.Reolow3, sample=IPM.Reolow3
+
+Finished job 8.
+5 of 13 steps (38%) done
+
+rule sort:
+    input: results//IPM.Reolow3/IPM.Reolow3_Aligned.sam
+    output: results//IPM.Reolow3/IPM.Reolow3_Aligned_sorted.sam
+    jobid: 5
+    wildcards: path=results//IPM.Reolow3, sample=IPM.Reolow3
+
+Finished job 5.
+6 of 13 steps (46%) done
+
+rule stage3:
+    input: results//IPM.Reolow3/IPM.Reolow3_tagged_unmapped.bam, results//IPM.Reolow3/IPM.Reolow3_Aligned_sorted.sam
+    output: results//IPM.Reolow3/IPM.Reolow3_gene_exon_tagged.bam
+    jobid: 3
+    wildcards: path=results//IPM.Reolow3, sample=IPM.Reolow3
+    threads: 2
+
+Finished job 3.
+7 of 13 steps (54%) done
+
+rule host_align_stats:
+    input: results//IPM.Reolow3/IPM.Reolow3_gene_exon_tagged.bam
+    output: results//IPM.Reolow3/IPM.Reolow3_gene_exon_tagged.flagstat
+    jobid: 1
+    wildcards: path=results//IPM.Reolow3, sample=IPM.Reolow3
+
+
+rule bead_errors_metrics:
+    input: results//IPM.Reolow3/IPM.Reolow3_gene_exon_tagged.bam
+    output: results//IPM.Reolow3/IPM.Reolow3_final.bam
+    jobid: 10
+    wildcards: path=results//IPM.Reolow3, sample=IPM.Reolow3
+
+Finished job 1.
+8 of 13 steps (62%) done
+Finished job 10.
+9 of 13 steps (69%) done
+
+rule extract_expression:
+    input: results//IPM.Reolow3/IPM.Reolow3_final.bam
+    output: results//IPM.Reolow3/summary/IPM.Reolow3_expression_matrix.txt.gz
+    jobid: 7
+    wildcards: path=results//IPM.Reolow3, sample=IPM.Reolow3
+
+Error in rule extract_expression:
+    jobid: 7
+    output: results//IPM.Reolow3/summary/IPM.Reolow3_expression_matrix.txt.gz
+
+RuleException:
+CalledProcessError in line 243 of /local/workdir/psb84/DART-seq/ViralInfections/Snakefile:
+Command ' set -euo pipefail;  
+			bin/Drop-seq_tools-1.12//DigitalExpression				I=results//IPM.Reolow3/IPM.Reolow3_final.bam				O=results//IPM.Reolow3/summary/IPM.Reolow3_expression_matrix.txt.gz				SUMMARY=summary/IPM.Reolow3_dge.summary.txt 				NUM_CORE_BARCODES=5000 ' returned non-zero exit status 1.
+  File "/local/workdir/psb84/DART-seq/ViralInfections/Snakefile", line 243, in __rule_extract_expression
+  File "/usr/local/lib/python3.6/concurrent/futures/thread.py", line 55, in run
+Will exit after finishing currently running jobs.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2018-04-25T160909.830596.snakemake.log

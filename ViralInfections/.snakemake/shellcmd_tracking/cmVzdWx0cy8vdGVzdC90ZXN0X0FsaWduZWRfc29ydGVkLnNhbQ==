@@ -1,0 +1,1 @@
+java -Djava.io.tmpdir=/workdir/psb84/scViral/temp -Dsamjdk.buffer_size=131072 -XX:GCTimeLimit=50 -XX:GCHeapFreeLimit=10 -Xmx4000m -jar /programs/picard-tools-2.1.1/picard.jar SortSam				INPUT=results//test/test_Aligned.sam				OUTPUT=results//test/test_Aligned_sorted.sam				SORT_ORDER=queryname				TMP_DIR=/workdir/psb84/scViral/temp

@@ -1,0 +1,8 @@
+
+			prinseq-lite.pl -min_len 25 -fastq results//test/test_STAR_host_unaligned.tmp.fastq -out_good results//test/test.nonhost.filter.fastq -out_bad null ;
+			mv results//test/test.nonhost.filter.fastq.fastq results//test/test.nonhost.filter.fastq ; 
+			bwa mem -t 4 references/Reo/reo_T3D.fasta results//test/test.nonhost.filter.fastq | samtools view -bS - | 				samtools view -h -F 4 - | samtools view -bS - > results//test/test.virusaln.bam ;
+			samtools view results//test/test.virusaln.bam > results//test/test.virusaln.sam ;
+			samtools view -H results//test/test.virusaln.bam > results//test/test.virusaln.samhead ;
+			cut -f 1 results//test/test.virusaln.sam > results//test/test.virusaln.tmp.list ;
+			

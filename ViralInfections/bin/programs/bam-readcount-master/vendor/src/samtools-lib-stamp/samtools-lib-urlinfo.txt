@@ -1,0 +1,3 @@
+repository='external project URL'
+module='/workdir/psb84/KTx/Bin/bam-readcount-master/vendor/samtools-0.1.19.tar.gz'
+tag=''

@@ -1,0 +1,8 @@
+
+			zcat /workdir/Data/SingleCell/test.R1.fastq.gz | LANG=C grep -Fwf results//test/test.virusaln.list -A 1 --no-group-separator 				| awk 'NR % 2 == 0' | sort | uniq 				| cut -c 1-12 |sort | uniq -c 				| tr -s ' ' > results//test/test.totalvircounts.tab ;
+			zcat /workdir/Data/SingleCell/test.R1.fastq.gz | LANG=C grep -Fwf results//test/test.virusaln.list -A 1 --no-group-separator 				| awk 'NR % 2 == 0' > results//test/test.virus.0.tmp ;
+			cut -c 1-12 results//test/test.virus.0.tmp > results//test/test.virus.1.tmp ;
+			cut -c 13-20 results//test/test.virus.0.tmp > results//test/test.virus.2.tmp ; 
+			zcat /workdir/Data/SingleCell/test.R1.fastq.gz | LANG=C grep -Fwf results//test/test.virusaln.list | cut -d' ' -f 1 | sed 's/@//g' > results//test/test.virus.3.tmp ;
+			paste results//test/test.virus.3.tmp results//test/test.virus.0.tmp results//test/test.virus.1.tmp results//test/test.virus.2.tmp > results//test/test.virus.barcodes.tab ;
+			

@@ -1,0 +1,13 @@
+Type,Segment,Gene,Segment_Length,Gene_start,Gene_end
+T3D,L3,lambda1,,1,3828,
+T3D,L2,lambda2,,1,3870,
+T3D,L1,lambda3,,1,3804,
+T3D,M3,muNS,,19,2184,
+T3D,M2,mu1,,1,2127,
+T3D,M1,mu2,,14,2224,
+T3D,S4,sigma3,,1,1098,
+T3D,S3,sigmaNS,,28,1128,
+T3D,S2,sigma2,,19,1275,
+T3D,S1,sigma1,,1,1368,
+T3D,S1,sigma1s,,59,421,
+

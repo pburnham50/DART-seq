@@ -1,0 +1,8 @@
+
+			zcat /workdir/Data/SingleCell/IPM.Reolow3.R1.fastq.gz | LANG=C grep -Fwf results//IPM.Reolow3/IPM.Reolow3.virusaln.list -A 1 --no-group-separator 				| awk 'NR % 2 == 0' | sort | uniq 				| cut -c 1-12 |sort | uniq -c 				| tr -s ' ' > results//IPM.Reolow3/IPM.Reolow3.totalvircounts.tab ;
+			zcat /workdir/Data/SingleCell/IPM.Reolow3.R1.fastq.gz | LANG=C grep -Fwf results//IPM.Reolow3/IPM.Reolow3.virusaln.list -A 1 --no-group-separator 				| awk 'NR % 2 == 0' > results//IPM.Reolow3/IPM.Reolow3.virus.0.tmp ;
+			cut -c 1-12 results//IPM.Reolow3/IPM.Reolow3.virus.0.tmp > results//IPM.Reolow3/IPM.Reolow3.virus.1.tmp ;
+			cut -c 13-20 results//IPM.Reolow3/IPM.Reolow3.virus.0.tmp > results//IPM.Reolow3/IPM.Reolow3.virus.2.tmp ; 
+			zcat /workdir/Data/SingleCell/IPM.Reolow3.R1.fastq.gz | LANG=C grep -Fwf results//IPM.Reolow3/IPM.Reolow3.virusaln.list | cut -d' ' -f 1 | sed 's/@//g' > results//IPM.Reolow3/IPM.Reolow3.virus.3.tmp ;
+			paste results//IPM.Reolow3/IPM.Reolow3.virus.3.tmp results//IPM.Reolow3/IPM.Reolow3.virus.0.tmp results//IPM.Reolow3/IPM.Reolow3.virus.1.tmp results//IPM.Reolow3/IPM.Reolow3.virus.2.tmp > results//IPM.Reolow3/IPM.Reolow3.virus.barcodes.tab ;
+			

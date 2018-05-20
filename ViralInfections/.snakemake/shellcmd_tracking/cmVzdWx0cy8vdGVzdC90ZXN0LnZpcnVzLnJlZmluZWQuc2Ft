@@ -1,0 +1,8 @@
+
+				cut -d' ' -f 1,5- results//test/test.virus.barcoded.sam | sed 's/\s/	/g' > results//test/test.virus.refined.sam ;
+				cat results//test/test.virusaln.samhead results//test/test.virus.refined.sam | /programs/samtools-1.6/bin/samtools view -bS - > results//test/test.virus.refined.bam ;
+				/programs/samtools-1.6/bin/samtools sort -@ 4 -o results//test/test.virus.refined.sorted.bam results//test/test.virus.refined.bam ;
+				/programs/samtools-1.6/bin/samtools index results//test/test.virus.refined.sorted.bam
+				/programs/samtools-1.6/bin/samtools depth -aa -m 1000000 results//test/test.virus.refined.sorted.bam > results//test/test.virus.depth ;
+				/programs/bedtools2-2.26.0/bin/bedtools bamtobed -i results//test/test.virus.refined.sorted.bam > results//test/test.virus.refined.bed ;
+			

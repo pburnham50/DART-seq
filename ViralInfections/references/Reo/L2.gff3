@@ -1,0 +1,6 @@
+##sequence-region NC_013226.1 1 3870
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=538123
+NC_013226.1	RefSeq	region	1	3870	.	+	.	ID=id0;Dbxref=taxon:538123;collection-date=2004;country=China;gbkey=Src;genome=genomic;isolate=MPC/04;mol_type=genomic RNA;nat-host=masked palm civet;segment=L2;serotype=3
+NC_013226.1	RefSeq	gene	1	3870	.	+	.	ID=gene0;Dbxref=GeneID:8437015;Name=L2;gbkey=Gene;gene=L2;gene_biotype=protein_coding;locus_tag=MoV-3mpc04sL2_gp1
+NC_013226.1	RefSeq	CDS	1	3870	.	+	0	ID=cds0;Parent=gene0;Dbxref=Genbank:YP_003199419.1,GeneID:8437015;Name=YP_003199419.1;gbkey=CDS;gene=L2;product=lambda-2 protein;protein_id=YP_003199419.1
+

@@ -1,0 +1,343 @@
+# Pipeline for use with virally infected single cell datasets 
+# P. Burnham, 	2018
+#########################################################################
+
+# Configfile
+configfile:'config.reo.yaml'
+
+# Variables
+PIPELINE_MAJOR = "results/V1"
+DIR = "/workdir/Data/SingleCell/"
+SAMPLEWDIR = "${WORKDIR}/Dropsnake/${PIPELINE_MAJOR}"
+MISMATCH = config['GLOBAL']['allowed_mismatch']
+
+# Executables
+TMPDIR = config['TMPDIR']
+PICARD = config['PICARD']
+DROPSEQ = config['DROPSEQ']
+FASTQC = config['FASTQCEXEC']
+STAREXEC = config['STAREXEC']
+CORES = config['CORES']
+BWAEXEC = config['BWAEXEC']
+SAMEXEC = config['SAMEXEC']
+BAREXEC = config['BAREXEC']
+BEDEXEC = config['BEDEXEC']
+BRC = config['BAM_READCOUNT']
+
+# Reference files
+GENOMEREF = config['GENOMEREF']
+REFFLAT = config['REFFLAT']
+METAREF = config['METAREF']
+RRNAINTERVALS=config['RRNAINTERVALS']
+
+VIRALFASTA = config['VIRALFASTA']
+
+
+#######################
+
+rule all:
+		input:
+			expand('{PIPE}/{sample}/{sample}.virvar.tab', PIPE=config['PIPELINE_MAJOR'],sample=config['Samples']),
+			expand('{PIPE}/{sample}/{sample}.viablecells.tab', PIPE=config['PIPELINE_MAJOR'],sample=config['Samples']),
+			expand('{PIPE}/{sample}/{sample}_expression_matrix.txt', PIPE=config['PIPELINE_MAJOR'],sample=config['Samples'])
+
+rule fastqc:
+		"""Create fastqc report"""
+		input:	r1='data/{sample}.R1.fastq.gz',
+			r2='data/{sample}.R2.fastq.gz'
+		output: 'fastqc/{sample}.R1_fastqc.html'
+		threads: 2
+		shell: "{FASTQC} {input.r1} {input.r2} -t {threads} -o fastqc --extract"
+
+rule fastq_to_sam:
+		"""Create an empty bam file linking cell/UMI barcodes to reads"""
+		input:	r1='data/{sample}.R1.fastq.gz',
+			r2='data/{sample}.R2.fastq.gz'
+		output:	temp('{path}/{sample}_unaligned.bam')
+		threads: 1
+		shell:
+			"""
+				java -Djava.io.tmpdir={TMPDIR} -jar {PICARD} FastqToSam\
+				F1={input.r1}\
+				F2={input.r2}\
+				SM=DS O={output}
+			"""
+
+rule stage1:
+		input: '{path}/{sample}_unaligned.bam'
+		output: '{path}/{sample}_tagged_unmapped.bam'
+		params:
+				BC_summary = 'logs/{sample}_CELL_barcode.txt',
+				UMI_summary = 'logs/{sample}_UMI_barcode.txt',
+				start_trim = 'logs/{sample}_start_trim.txt',
+				polyA_trim = 'logs/{sample}_polyA_trim.txt',
+				BC_range_1 = config['GLOBAL']['BC_range']['first'],
+				BC_range_2 = config['GLOBAL']['BC_range']['last'],
+				UMI_range_1 = config['GLOBAL']['UMI_range']['first'],
+				UMI_range_2 = config['GLOBAL']['UMI_range']['last']
+		threads: 4
+		shell:
+			"""
+			{DROPSEQ}/TagBamWithReadSequenceExtended \
+				SUMMARY={params.BC_summary} \
+				BASE_RANGE={params.BC_range_1}-{params.BC_range_2} \
+				BASE_QUALITY=10 \
+				BARCODED_READ=1 \
+				DISCARD_READ=false \
+				TAG_NAME=XC \
+				NUM_BASES_BELOW_QUALITY=1 \
+				INPUT={input} \
+				OUTPUT=/dev/stdout COMPRESSION_LEVEL=0 | \
+				 \
+				{DROPSEQ}/TagBamWithReadSequenceExtended \
+				SUMMARY={params.UMI_summary} \
+				BASE_RANGE={params.UMI_range_1}-{params.UMI_range_2} \
+				BASE_QUALITY=10 \
+				BARCODED_READ=1 \
+				DISCARD_READ=true \
+				TAG_NAME=XM \
+				NUM_BASES_BELOW_QUALITY=1 \
+				INPUT=/dev/stdin \
+				OUTPUT=/dev/stdout COMPRESSION_LEVEL=0| \
+				 \
+				{DROPSEQ}/FilterBAM TAG_REJECT=XQ \
+				INPUT=/dev/stdin \
+				OUTPUT=/dev/stdout COMPRESSION_LEVEL=0| \
+				 \
+				{DROPSEQ}/TrimStartingSequence \
+				OUTPUT_SUMMARY={params.start_trim} \
+				SEQUENCE=AAGCAGTGGTATCAACGCAGAGTGAATGGG \
+				MISMATCHES=0 \
+				NUM_BASES=5 \
+				INPUT=/dev/stdin \
+				OUTPUT=/dev/stdout COMPRESSION_LEVEL=0| \
+				 \
+				{DROPSEQ}/PolyATrimmer \
+				OUTPUT_SUMMARY={params.polyA_trim} \
+				MISMATCHES=0 \
+				NUM_BASES=6 \
+				OUTPUT={output} \
+				INPUT=/dev/stdin 
+			"""
+
+
+rule STAR_align:
+		input: '{path}/{sample}_tagged_unmapped.bam'
+		output: ufq = temp('{path}/{sample}_tagged_unmapped.fastq'),
+			sam = temp('{path}/logs/{sample}_STAR_Aligned.out.sam'),
+			ofq = temp('{path}/logs/{sample}_STAR_Unmapped.out.mate1'),
+			newsam = temp('{path}/{sample}_Aligned.sam'),
+			newfq = '{path}/{sample}_STAR_host_unaligned.fastq',
+			sorted = '{path}/{sample}_Aligned_sorted.sam'
+		params:
+			prefix = '{path}/logs/{sample}_STAR_',
+			mismatch = MISMATCH
+		threads: 6
+		shell:
+			"""
+			java -Xmx500m -jar -Djava.io.tmpdir={TMPDIR} {PICARD} SamToFastq \
+				INPUT={input} FASTQ={output.ufq} ;
+
+			{STAREXEC} \
+				--genomeDir {METAREF} \
+				--runThreadN {threads} \
+				--outFilterMismatchNmax={params.mismatch} \
+				--readFilesIn {output.ufq} \
+				--genomeLoad LoadAndKeep \
+				--outReadsUnmapped Fastx \
+				--outFileNamePrefix {params.prefix} ;
+
+			cp {output.sam} {output.newsam} ;
+			cp {output.ofq} {output.newfq} ;
+
+			java -Djava.io.tmpdir={TMPDIR} -Dsamjdk.buffer_size=131072 -XX:GCTimeLimit=50 \
+				-XX:GCHeapFreeLimit=10 -Xmx4000m -jar {PICARD} SortSam\
+				INPUT={output.newsam} OUTPUT={output.sorted} \
+				SORT_ORDER=queryname TMP_DIR={TMPDIR};
+			"""
+
+rule stage3:
+		input:  unmapped = '{path}/{sample}_tagged_unmapped.bam',
+			mapped = '{path}/{sample}_Aligned_sorted.sam'
+		output: '{path}/{sample}_gene_exon_tagged.bam'
+		threads: 2
+		shell:
+			"""
+			java -Djava.io.tmpdir={TMPDIR} -Xmx4000m -jar {PICARD} MergeBamAlignment\
+				REFERENCE_SEQUENCE={GENOMEREF}\
+				UNMAPPED_BAM={input.unmapped}\
+				ALIGNED_BAM={input.mapped}\
+				INCLUDE_SECONDARY_ALIGNMENTS=false\
+				PAIRED_RUN=false\
+				OUTPUT=/dev/stdout COMPRESSION_LEVEL=0|\
+				\
+				{DROPSEQ}/TagReadWithGeneExon\
+				O={output}\
+				I=/dev/stdin\
+				ANNOTATIONS_FILE={REFFLAT}\
+				TAG=GE\
+				CREATE_INDEX=true
+				
+			rm {input.mapped} ;
+			rm {input.unmapped} ;
+			"""
+
+rule bead_errors_metrics:
+		input: '{path}/{sample}_gene_exon_tagged.bam'
+		output: '{path}/{sample}_final.bam'
+		params:
+				out_stats = '{path}/logs/{sample}_synthesis_stats.txt',
+				summary = '{path}/logs/{sample}_synthesis_summary.txt',
+				barcodes = lambda wildcards: config['Samples'][wildcards.sample]['expected_cells'] * 2,
+				cells = lambda wildcards: config['Samples'][wildcards.sample]['expected_cells'],
+				metrics = '{path}/logs/{sample}_rna_metrics.txt'
+		shell:
+				"""{DROPSEQ}/DetectBeadSynthesisErrors\
+				INPUT={input}\
+				OUTPUT={output}\
+				OUTPUT_STATS={params.out_stats}\
+				SUMMARY={params.summary}\
+				NUM_BARCODES={params.barcodes}\
+				PRIMER_SEQUENCE=AAGCAGTGGTATCAACGCAGAGTAC;
+				{DROPSEQ}/SingleCellRnaSeqMetricsCollector\
+				INPUT={input}\
+				OUTPUT={params.metrics}\
+				ANNOTATIONS_FILE={REFFLAT}\
+				NUM_CORE_BARCODES={params.cells} ; 
+				RIBOSOMAL_INTERVALS={RRNAINTERVALS}
+				"""
+
+rule bam_hist:
+		input: '{path}/{sample}_final.bam'
+		output: '{path}/logs/{sample}_hist_out_cell.txt'
+		shell:
+				"""{DROPSEQ}/BAMTagHistogram\
+				I={input}\
+				O={output}\
+				TAG=XC
+				"""
+
+rule extract_expression:
+		input: '{path}/{sample}_final.bam'
+		output: '{path}/{sample}_expression_matrix.txt.gz'
+		params:
+				sample = '{sample}'
+		shell:
+				"""{DROPSEQ}/DigitalExpression\
+				I={input}\
+				O={output}\
+				SUMMARY={params.sample}_dge.summary.txt \
+				NUM_CORE_BARCODES=2500"""
+
+rule gunzip:
+		input: '{path}/{sample}_expression_matrix.txt.gz'
+		output: '{path}/{sample}_expression_matrix.txt'
+		shell:
+				""" gunzip -qf {input} ; """
+
+
+rule viral_aln:
+		input: '{path}/{sample}_STAR_host_unaligned.fastq'
+		output: fq = temp('{path}/{sample}.nonhost.filter.fastq'),
+			sam = '{path}/{sample}.virusaln.sam',
+			samheader = '{path}/{sample}.virusaln.samhead',
+			bam = '{path}/{sample}.virusaln.bam',
+			list = '{path}/{sample}.virusaln.list'
+		threads: 4
+		shell:
+			"""
+				prinseq-lite.pl -min_len 25 -fastq {input} -out_good {output.fq} -out_bad null ;
+				mv {output.fq}.fastq {output.fq} ; 
+				{BWAEXEC} -t {threads} {VIRALFASTA} {output.fq} | {SAMEXEC} view -bS - \
+					| {SAMEXEC} view -h -F 4 - | {SAMEXEC} view -bS - > {output.bam} ;
+				{SAMEXEC} view {output.bam} > {output.sam} ;
+				{SAMEXEC} view -H {output.bam} > {output.samheader} ;
+				cut -f 1 {output.sam} > {output.list} ;
+			"""
+
+rule viral_clean:
+		input:	fq  = 'data/{sample}.R1.fastq.gz',
+			list = '{path}/{sample}.virusaln.list'
+		output:	total = '{path}/{sample}.totalvircounts.tab',
+			barcodes_tmp0 = temp('{path}/{sample}.virus.0.tmp'),
+			barcodes_tmp1 =	temp('{path}/{sample}.virus.1.tmp'),
+			barcodes_tmp2 =	temp('{path}/{sample}.virus.2.tmp'),
+			barcodes_tmp3 =	temp('{path}/{sample}.virus.3.tmp'),
+			barcodes ='{path}/{sample}.virus.barcodes.tab'
+		threads: 1
+		shell:
+			"""
+			zcat {input.fq} | LANG=C grep -Fwf {input.list} -A 1 --no-group-separator \
+				| awk 'NR % 2 == 0' | sort | uniq \
+				| cut -c 1-12 |sort | uniq -c \
+				| tr -s ' ' > {output.total} ;
+			zcat {input.fq} | LANG=C grep -Fwf {input.list} -A 1 --no-group-separator \
+				| awk 'NR % 2 == 0' > {output.barcodes_tmp0} ;
+			cut -c 1-12 {output.barcodes_tmp0} > {output.barcodes_tmp1} ;
+			cut -c 13-20 {output.barcodes_tmp0} > {output.barcodes_tmp2} ; 
+			zcat {input.fq} | LANG=C grep -Fwf {input.list} | cut -d' ' -f 1 | sed 's/@//g' > {output.barcodes_tmp3} ;
+			paste {output.barcodes_tmp3} {output.barcodes_tmp0} {output.barcodes_tmp1} {output.barcodes_tmp2} > {output.barcodes} ;
+			"""
+
+rule virus_clarity:
+		input:	aln = '{path}/{sample}.virusaln.sam',
+			barcodes = '{path}/{sample}.virus.barcodes.tab'
+		output:	virgenes = '{path}/{sample}.virgenes.tab',
+			aln_sort = temp('{path}/{sample}.virusaln.sort.sam'),
+			bar_sort = temp('{path}/{sample}.virus.barcodes.sorted.tab'),
+			joined = '{path}/{sample}.virus.barcoded.sam'
+		threads: CORES
+		shell:
+			"""
+			sort -k 1,1 {input.aln} > {output.aln_sort} ;
+			sort -k	1,1 {input.barcodes} > {output.bar_sort} ;
+			join -j 1 {output.bar_sort} {output.aln_sort} | sort -k2,2 \
+				| awk '{{ if (a[$2]++ == 0) print $0; }}' "$@" > {output.joined} ;
+			awk '{{if ($5 == 0) print $3"\t"$6"\t+\t"$7 ; else if ($5 == 16) print $3"\t"$6"\t-\t"$7}}' {output.joined} > {output.virgenes} ;
+			"""
+
+rule virus_depth:
+		input:	fauxsam = '{path}/{sample}.virus.barcoded.sam',
+			head = '{path}/{sample}.virusaln.samhead',
+		output: sam = temp('{path}/{sample}.virus.refined.sam'),
+			bam = temp('{path}/{sample}.virus.refined.bam'),
+			sort = temp('{path}/{sample}.virus.refined.sorted.bam'),
+			ind = temp('{path}/{sample}.virus.refined.sorted.bam.bai'),
+			depth = '{path}/{sample}.virus.depth',
+			bed = '{path}/{sample}.virus.refined.bed'
+		threads: 6
+		shell:
+			"""
+				cut -d' ' -f 1,5- {input.fauxsam} | sed 's/\s/\t/g' > {output.sam} ;
+				cat {input.head} {output.sam} | samtools view -bS - > {output.bam} ;
+				samtools sort -@ {threads} -o {output.sort} {output.bam} ;
+				samtools index {output.sort}
+				samtools depth -aa -m 1000000 {output.sort} > {output.depth} ;
+				bedtools bamtobed -i {output.sort} > {output.bed} ;
+			"""
+rule viral_variant:
+		input: '{path}/{sample}.virus.refined.sorted.bam'
+		output:	'{path}/{sample}.viral.variants.tab'
+		threads: CORES
+		shell:
+			"""
+			{BAREXEC} -w 0 -f {VIRALFASTA} {input} \
+				| sed 's/:/\t/g' | cut -f 1,2,20,34,48,62 > {output} ;
+			"""
+
+rule viral_stats:
+		output: '{path}/{sample}.viral.hist.top1000.eps'
+		threads: 1
+		shell: " Rscript bin/Rscripts/Virus_cell_histo.R {wildcards.sample} TRUE ; "
+
+rule hostpathstats:
+		input: 	a='{path}/{sample}_expression_matrix.txt'
+		output: '{path}/{sample}.viablecells.tab'
+		threads: 1
+		shell: "Rscript bin/Rscripts/reoVirus.DARTseq_analysis.R {wildcards.sample} 1000 ; "
+
+rule indicells:
+		input: '{path}/{sample}.virus.barcoded.sam'
+		output: '{path}/{sample}.virvar.tab'
+		threads: CORES
+		shell: " bin/scViral.variantcall.sh {wildcards.sample}; "

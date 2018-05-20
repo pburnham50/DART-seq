@@ -1,0 +1,1 @@
+bin/Drop-seq_tools-1.12//DigitalExpression				I=results//Lcell_T3Dpos_DARTseq_1/Lcell_T3Dpos_DARTseq_1_final.bam				O=results//Lcell_T3Dpos_DARTseq_1/Lcell_T3Dpos_DARTseq_1_expression_matrix.txt.gz				SUMMARY=Lcell_T3Dpos_DARTseq_1_dge.summary.txt 				NUM_CORE_BARCODES=2500

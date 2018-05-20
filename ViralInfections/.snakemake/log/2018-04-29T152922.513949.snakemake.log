@@ -1,0 +1,839 @@
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_expression_matrix.txt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_expression_matrix.txt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_expression_matrix.txt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_expression_matrix.txt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virus.refined.bed contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virus.refined.bed contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virus.refined.bed contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virus.refined.bed contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virvar.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virvar.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virvar.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virvar.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virus.barcoded.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virusaln.samhead contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virus.refined.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virus.refined.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virus.refined.sorted.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virus.depth contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virus.refined.bed contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virus.barcoded.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virusaln.samhead contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virus.refined.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virus.refined.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virus.refined.sorted.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virus.depth contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virus.refined.bed contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_expression_matrix.txt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_expression_matrix.txt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virus.barcoded.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virvar.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_expression_matrix.txt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_expression_matrix.txt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virus.barcoded.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virvar.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virus.barcoded.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virusaln.samhead contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virus.refined.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virus.refined.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virus.refined.sorted.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virus.depth contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virus.refined.bed contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_expression_matrix.txt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_expression_matrix.txt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virus.barcoded.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virusaln.samhead contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virus.refined.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virus.refined.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virus.refined.sorted.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virus.depth contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virus.refined.bed contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virus.barcoded.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virvar.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virus.barcoded.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virvar.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_expression_matrix.txt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_expression_matrix.txt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virusaln.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virus.barcodes.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virgenes.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virusaln.sort.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virus.barcodes.sorted.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virus.barcoded.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_STAR_host_unaligned.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.nonhost.filter.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virusaln.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virusaln.samhead contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virusaln.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virusaln.list contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virusaln.list contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.totalvircounts.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virus.0.tmp contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virus.1.tmp contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virus.2.tmp contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virus.3.tmp contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip.virus.barcodes.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/logs/IS2.ReolowTrip_STAR_Aligned.out.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/logs/IS2.ReolowTrip_STAR_Unmapped.out.mate1 contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_Aligned.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_STAR_host_unaligned.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_tagged_unmapped.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/logs/IS2.ReolowTrip_STAR_Aligned.out.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/logs/IS2.ReolowTrip_STAR_Unmapped.out.mate1 contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_tagged_unmapped.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_tagged_unmapped.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_unaligned.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_tagged_unmapped.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_unaligned.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_STAR_host_unaligned.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.nonhost.filter.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virusaln.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virusaln.samhead contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virusaln.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virusaln.list contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virusaln.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virus.barcodes.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virgenes.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virusaln.sort.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virus.barcodes.sorted.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virus.barcoded.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/logs/IFL.ReolowTrip_STAR_Aligned.out.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/logs/IFL.ReolowTrip_STAR_Unmapped.out.mate1 contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_Aligned.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_STAR_host_unaligned.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_tagged_unmapped.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/logs/IFL.ReolowTrip_STAR_Aligned.out.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/logs/IFL.ReolowTrip_STAR_Unmapped.out.mate1 contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_tagged_unmapped.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_tagged_unmapped.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_unaligned.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_tagged_unmapped.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_unaligned.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virusaln.list contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.totalvircounts.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virus.0.tmp contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virus.1.tmp contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virus.2.tmp contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virus.3.tmp contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip.virus.barcodes.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_final.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_expression_matrix.txt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_dge.summary.txt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_gene_exon_tagged.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_final.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_tagged_unmapped.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_Aligned_sorted.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_gene_exon_tagged.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_Aligned.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IFL.ReolowTrip/IFL.ReolowTrip_Aligned_sorted.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virusaln.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virus.barcodes.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virgenes.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virusaln.sort.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virus.barcodes.sorted.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virus.barcoded.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_STAR_host_unaligned.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.nonhost.filter.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virusaln.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virusaln.samhead contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virusaln.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virusaln.list contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virusaln.list contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.totalvircounts.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virus.0.tmp contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virus.1.tmp contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virus.2.tmp contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virus.3.tmp contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip.virus.barcodes.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/logs/IReg.ReolowTrip_STAR_Aligned.out.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/logs/IReg.ReolowTrip_STAR_Unmapped.out.mate1 contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_Aligned.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_STAR_host_unaligned.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_tagged_unmapped.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/logs/IReg.ReolowTrip_STAR_Aligned.out.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/logs/IReg.ReolowTrip_STAR_Unmapped.out.mate1 contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_tagged_unmapped.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_tagged_unmapped.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_unaligned.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_tagged_unmapped.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_unaligned.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_final.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_expression_matrix.txt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_dge.summary.txt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_gene_exon_tagged.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_final.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_tagged_unmapped.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_Aligned_sorted.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_gene_exon_tagged.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_Aligned.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IReg.ReolowTrip/IReg.ReolowTrip_Aligned_sorted.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virusaln.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virus.barcodes.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virgenes.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virusaln.sort.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virus.barcodes.sorted.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virus.barcoded.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virusaln.list contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.totalvircounts.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virus.0.tmp contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virus.1.tmp contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virus.2.tmp contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virus.3.tmp contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virus.barcodes.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_STAR_host_unaligned.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.nonhost.filter.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virusaln.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virusaln.samhead contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virusaln.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip.virusaln.list contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/logs/MFL.ReolowTrip_STAR_Aligned.out.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/logs/MFL.ReolowTrip_STAR_Unmapped.out.mate1 contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_Aligned.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_STAR_host_unaligned.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_tagged_unmapped.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/logs/MFL.ReolowTrip_STAR_Aligned.out.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/logs/MFL.ReolowTrip_STAR_Unmapped.out.mate1 contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_tagged_unmapped.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_tagged_unmapped.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_unaligned.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_tagged_unmapped.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_unaligned.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_final.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_expression_matrix.txt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_dge.summary.txt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_gene_exon_tagged.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_final.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_tagged_unmapped.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_Aligned_sorted.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_gene_exon_tagged.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_Aligned.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//IS2.ReolowTrip/IS2.ReolowTrip_Aligned_sorted.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_final.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_expression_matrix.txt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_dge.summary.txt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_gene_exon_tagged.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_final.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_tagged_unmapped.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_Aligned_sorted.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_gene_exon_tagged.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_Aligned.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//MFL.ReolowTrip/MFL.ReolowTrip_Aligned_sorted.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+Provided cores: 25
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	4	STAR_align
+	1	all
+	4	bead_errors_metrics
+	4	extract_expression
+	4	fastq_to_sam
+	4	gunzip
+	4	indicells
+	4	mv_files
+	4	sam_to_fastq
+	4	sort
+	4	stage1
+	4	stage3
+	4	viral_aln
+	4	viral_clean
+	4	virus_clarity
+	4	virus_depth
+	61
+
+rule fastq_to_sam:
+    input: data/MFL.ReolowTrip.R1.fastq.gz, data/MFL.ReolowTrip.R2.fastq.gz
+    output: results//MFL.ReolowTrip/MFL.ReolowTrip_unaligned.bam
+    jobid: 60
+    wildcards: path=results//MFL.ReolowTrip, sample=MFL.ReolowTrip
+
+
+rule fastq_to_sam:
+    input: data/IReg.ReolowTrip.R1.fastq.gz, data/IReg.ReolowTrip.R2.fastq.gz
+    output: results//IReg.ReolowTrip/IReg.ReolowTrip_unaligned.bam
+    jobid: 58
+    wildcards: path=results//IReg.ReolowTrip, sample=IReg.ReolowTrip
+
+
+rule fastq_to_sam:
+    input: data/IFL.ReolowTrip.R1.fastq.gz, data/IFL.ReolowTrip.R2.fastq.gz
+    output: results//IFL.ReolowTrip/IFL.ReolowTrip_unaligned.bam
+    jobid: 57
+    wildcards: path=results//IFL.ReolowTrip, sample=IFL.ReolowTrip
+
+
+rule fastq_to_sam:
+    input: data/IS2.ReolowTrip.R1.fastq.gz, data/IS2.ReolowTrip.R2.fastq.gz
+    output: results//IS2.ReolowTrip/IS2.ReolowTrip_unaligned.bam
+    jobid: 59
+    wildcards: path=results//IS2.ReolowTrip, sample=IS2.ReolowTrip
+
+Finished job 60.
+1 of 61 steps (2%) done
+
+rule stage1:
+    input: results//MFL.ReolowTrip/MFL.ReolowTrip_unaligned.bam
+    output: results//MFL.ReolowTrip/MFL.ReolowTrip_tagged_unmapped.bam
+    jobid: 55
+    wildcards: path=results//MFL.ReolowTrip, sample=MFL.ReolowTrip
+    threads: 4
+
+Finished job 58.
+2 of 61 steps (3%) done
+
+rule stage1:
+    input: results//IReg.ReolowTrip/IReg.ReolowTrip_unaligned.bam
+    output: results//IReg.ReolowTrip/IReg.ReolowTrip_tagged_unmapped.bam
+    jobid: 49
+    wildcards: path=results//IReg.ReolowTrip, sample=IReg.ReolowTrip
+    threads: 4
+
+Finished job 57.
+3 of 61 steps (5%) done
+
+rule stage1:
+    input: results//IFL.ReolowTrip/IFL.ReolowTrip_unaligned.bam
+    output: results//IFL.ReolowTrip/IFL.ReolowTrip_tagged_unmapped.bam
+    jobid: 47
+    wildcards: path=results//IFL.ReolowTrip, sample=IFL.ReolowTrip
+    threads: 4
+
+Finished job 59.
+4 of 61 steps (7%) done
+
+rule stage1:
+    input: results//IS2.ReolowTrip/IS2.ReolowTrip_unaligned.bam
+    output: results//IS2.ReolowTrip/IS2.ReolowTrip_tagged_unmapped.bam
+    jobid: 52
+    wildcards: path=results//IS2.ReolowTrip, sample=IS2.ReolowTrip
+    threads: 4
+
+Removing temporary output file results//MFL.ReolowTrip/MFL.ReolowTrip_unaligned.bam.
+Finished job 55.
+5 of 61 steps (8%) done
+
+rule sam_to_fastq:
+    input: results//MFL.ReolowTrip/MFL.ReolowTrip_tagged_unmapped.bam
+    output: results//MFL.ReolowTrip/MFL.ReolowTrip_tagged_unmapped.fastq
+    jobid: 54
+    wildcards: path=results//MFL.ReolowTrip, sample=MFL.ReolowTrip
+
+Removing temporary output file results//IReg.ReolowTrip/IReg.ReolowTrip_unaligned.bam.
+Finished job 49.
+6 of 61 steps (10%) done
+
+rule sam_to_fastq:
+    input: results//IReg.ReolowTrip/IReg.ReolowTrip_tagged_unmapped.bam
+    output: results//IReg.ReolowTrip/IReg.ReolowTrip_tagged_unmapped.fastq
+    jobid: 51
+    wildcards: path=results//IReg.ReolowTrip, sample=IReg.ReolowTrip
+
+Removing temporary output file results//IFL.ReolowTrip/IFL.ReolowTrip_unaligned.bam.
+Finished job 47.
+7 of 61 steps (11%) done
+
+rule sam_to_fastq:
+    input: results//IFL.ReolowTrip/IFL.ReolowTrip_tagged_unmapped.bam
+    output: results//IFL.ReolowTrip/IFL.ReolowTrip_tagged_unmapped.fastq
+    jobid: 46
+    wildcards: path=results//IFL.ReolowTrip, sample=IFL.ReolowTrip
+
+Finished job 54.
+8 of 61 steps (13%) done
+
+rule STAR_align:
+    input: results//MFL.ReolowTrip/MFL.ReolowTrip_tagged_unmapped.fastq
+    output: results//MFL.ReolowTrip/logs/MFL.ReolowTrip_STAR_Aligned.out.sam, results//MFL.ReolowTrip/logs/MFL.ReolowTrip_STAR_Unmapped.out.mate1
+    jobid: 43
+    wildcards: path=results//MFL.ReolowTrip, sample=MFL.ReolowTrip
+    threads: 8
+
+Finished job 51.
+9 of 61 steps (15%) done
+
+rule STAR_align:
+    input: results//IReg.ReolowTrip/IReg.ReolowTrip_tagged_unmapped.fastq
+    output: results//IReg.ReolowTrip/logs/IReg.ReolowTrip_STAR_Aligned.out.sam, results//IReg.ReolowTrip/logs/IReg.ReolowTrip_STAR_Unmapped.out.mate1
+    jobid: 41
+    wildcards: path=results//IReg.ReolowTrip, sample=IReg.ReolowTrip
+    threads: 8
+
+Finished job 46.
+10 of 61 steps (16%) done
+Removing temporary output file results//IS2.ReolowTrip/IS2.ReolowTrip_unaligned.bam.
+Finished job 52.
+11 of 61 steps (18%) done
+
+rule STAR_align:
+    input: results//IFL.ReolowTrip/IFL.ReolowTrip_tagged_unmapped.fastq
+    output: results//IFL.ReolowTrip/logs/IFL.ReolowTrip_STAR_Aligned.out.sam, results//IFL.ReolowTrip/logs/IFL.ReolowTrip_STAR_Unmapped.out.mate1
+    jobid: 38
+    wildcards: path=results//IFL.ReolowTrip, sample=IFL.ReolowTrip
+    threads: 8
+
+
+rule sam_to_fastq:
+    input: results//IS2.ReolowTrip/IS2.ReolowTrip_tagged_unmapped.bam
+    output: results//IS2.ReolowTrip/IS2.ReolowTrip_tagged_unmapped.fastq
+    jobid: 45
+    wildcards: path=results//IS2.ReolowTrip, sample=IS2.ReolowTrip
+
+Finished job 45.
+12 of 61 steps (20%) done
+Finished job 43.
+13 of 61 steps (21%) done
+
+rule mv_files:
+    input: results//MFL.ReolowTrip/logs/MFL.ReolowTrip_STAR_Aligned.out.sam, results//MFL.ReolowTrip/logs/MFL.ReolowTrip_STAR_Unmapped.out.mate1
+    output: results//MFL.ReolowTrip/MFL.ReolowTrip_Aligned.sam, results//MFL.ReolowTrip/MFL.ReolowTrip_STAR_host_unaligned.fastq
+    jobid: 35
+    wildcards: path=results//MFL.ReolowTrip, sample=MFL.ReolowTrip
+
+
+rule STAR_align:
+    input: results//IS2.ReolowTrip/IS2.ReolowTrip_tagged_unmapped.fastq
+    output: results//IS2.ReolowTrip/logs/IS2.ReolowTrip_STAR_Aligned.out.sam, results//IS2.ReolowTrip/logs/IS2.ReolowTrip_STAR_Unmapped.out.mate1
+    jobid: 37
+    wildcards: path=results//IS2.ReolowTrip, sample=IS2.ReolowTrip
+    threads: 8
+
+Finished job 35.
+14 of 61 steps (23%) done
+
+rule sort:
+    input: results//MFL.ReolowTrip/MFL.ReolowTrip_Aligned.sam
+    output: results//MFL.ReolowTrip/MFL.ReolowTrip_Aligned_sorted.sam
+    jobid: 56
+    wildcards: path=results//MFL.ReolowTrip, sample=MFL.ReolowTrip
+
+Finished job 41.
+15 of 61 steps (25%) done
+
+rule viral_aln:
+    input: results//MFL.ReolowTrip/MFL.ReolowTrip_STAR_host_unaligned.fastq
+    output: results//MFL.ReolowTrip/MFL.ReolowTrip.nonhost.filter.fastq, results//MFL.ReolowTrip/MFL.ReolowTrip.virusaln.sam, results//MFL.ReolowTrip/MFL.ReolowTrip.virusaln.samhead, results//MFL.ReolowTrip/MFL.ReolowTrip.virusaln.bam, results//MFL.ReolowTrip/MFL.ReolowTrip.virusaln.list
+    jobid: 23
+    wildcards: path=results//MFL.ReolowTrip, sample=MFL.ReolowTrip
+    threads: 4
+
+
+rule mv_files:
+    input: results//IReg.ReolowTrip/logs/IReg.ReolowTrip_STAR_Aligned.out.sam, results//IReg.ReolowTrip/logs/IReg.ReolowTrip_STAR_Unmapped.out.mate1
+    output: results//IReg.ReolowTrip/IReg.ReolowTrip_Aligned.sam, results//IReg.ReolowTrip/IReg.ReolowTrip_STAR_host_unaligned.fastq
+    jobid: 33
+    wildcards: path=results//IReg.ReolowTrip, sample=IReg.ReolowTrip
+
+Finished job 33.
+16 of 61 steps (26%) done
+
+rule sort:
+    input: results//IReg.ReolowTrip/IReg.ReolowTrip_Aligned.sam
+    output: results//IReg.ReolowTrip/IReg.ReolowTrip_Aligned_sorted.sam
+    jobid: 50
+    wildcards: path=results//IReg.ReolowTrip, sample=IReg.ReolowTrip
+
+Finished job 56.
+17 of 61 steps (28%) done
+
+rule viral_aln:
+    input: results//IReg.ReolowTrip/IReg.ReolowTrip_STAR_host_unaligned.fastq
+    output: results//IReg.ReolowTrip/IReg.ReolowTrip.nonhost.filter.fastq, results//IReg.ReolowTrip/IReg.ReolowTrip.virusaln.sam, results//IReg.ReolowTrip/IReg.ReolowTrip.virusaln.samhead, results//IReg.ReolowTrip/IReg.ReolowTrip.virusaln.bam, results//IReg.ReolowTrip/IReg.ReolowTrip.virusaln.list
+    jobid: 21
+    wildcards: path=results//IReg.ReolowTrip, sample=IReg.ReolowTrip
+    threads: 4
+
+Finished job 50.
+18 of 61 steps (30%) done
+Finished job 38.
+19 of 61 steps (31%) done
+
+rule mv_files:
+    input: results//IFL.ReolowTrip/logs/IFL.ReolowTrip_STAR_Aligned.out.sam, results//IFL.ReolowTrip/logs/IFL.ReolowTrip_STAR_Unmapped.out.mate1
+    output: results//IFL.ReolowTrip/IFL.ReolowTrip_Aligned.sam, results//IFL.ReolowTrip/IFL.ReolowTrip_STAR_host_unaligned.fastq
+    jobid: 27
+    wildcards: path=results//IFL.ReolowTrip, sample=IFL.ReolowTrip
+
+
+rule stage3:
+    input: results//MFL.ReolowTrip/MFL.ReolowTrip_tagged_unmapped.bam, results//MFL.ReolowTrip/MFL.ReolowTrip_Aligned_sorted.sam
+    output: results//MFL.ReolowTrip/MFL.ReolowTrip_gene_exon_tagged.bam
+    jobid: 44
+    wildcards: path=results//MFL.ReolowTrip, sample=MFL.ReolowTrip
+    threads: 2
+
+
+rule stage3:
+    input: results//IReg.ReolowTrip/IReg.ReolowTrip_tagged_unmapped.bam, results//IReg.ReolowTrip/IReg.ReolowTrip_Aligned_sorted.sam
+    output: results//IReg.ReolowTrip/IReg.ReolowTrip_gene_exon_tagged.bam
+    jobid: 40
+    wildcards: path=results//IReg.ReolowTrip, sample=IReg.ReolowTrip
+    threads: 2
+
+Finished job 27.
+20 of 61 steps (33%) done
+
+rule viral_aln:
+    input: results//IFL.ReolowTrip/IFL.ReolowTrip_STAR_host_unaligned.fastq
+    output: results//IFL.ReolowTrip/IFL.ReolowTrip.nonhost.filter.fastq, results//IFL.ReolowTrip/IFL.ReolowTrip.virusaln.sam, results//IFL.ReolowTrip/IFL.ReolowTrip.virusaln.samhead, results//IFL.ReolowTrip/IFL.ReolowTrip.virusaln.bam, results//IFL.ReolowTrip/IFL.ReolowTrip.virusaln.list
+    jobid: 15
+    wildcards: path=results//IFL.ReolowTrip, sample=IFL.ReolowTrip
+    threads: 4
+
+rule sort:
+    input: results//IFL.ReolowTrip/IFL.ReolowTrip_Aligned.sam
+    output: results//IFL.ReolowTrip/IFL.ReolowTrip_Aligned_sorted.sam
+    jobid: 48
+    wildcards: path=results//IFL.ReolowTrip, sample=IFL.ReolowTrip
+
+Finished job 23.
+21 of 61 steps (34%) done
+
+rule viral_clean:
+    input: /workdir/Data/SingleCell/MFL.ReolowTrip.R1.fastq.gz, results//MFL.ReolowTrip/MFL.ReolowTrip.virusaln.list
+    output: results//MFL.ReolowTrip/MFL.ReolowTrip.totalvircounts.tab, results//MFL.ReolowTrip/MFL.ReolowTrip.virus.0.tmp, results//MFL.ReolowTrip/MFL.ReolowTrip.virus.1.tmp, results//MFL.ReolowTrip/MFL.ReolowTrip.virus.2.tmp, results//MFL.ReolowTrip/MFL.ReolowTrip.virus.3.tmp, results//MFL.ReolowTrip/MFL.ReolowTrip.virus.barcodes.tab
+    jobid: 32
+    wildcards: path=results//MFL.ReolowTrip, sample=MFL.ReolowTrip
+
+Removing temporary output file results//MFL.ReolowTrip/MFL.ReolowTrip.virus.0.tmp.
+Removing temporary output file results//MFL.ReolowTrip/MFL.ReolowTrip.virus.1.tmp.
+Removing temporary output file results//MFL.ReolowTrip/MFL.ReolowTrip.virus.2.tmp.
+Removing temporary output file results//MFL.ReolowTrip/MFL.ReolowTrip.virus.3.tmp.
+Finished job 32.
+22 of 61 steps (36%) done
+
+rule virus_clarity:
+    input: results//MFL.ReolowTrip/MFL.ReolowTrip.virusaln.sam, results//MFL.ReolowTrip/MFL.ReolowTrip.virus.barcodes.tab
+    output: results//MFL.ReolowTrip/MFL.ReolowTrip.virgenes.tab, results//MFL.ReolowTrip/MFL.ReolowTrip.virusaln.sort.sam, results//MFL.ReolowTrip/MFL.ReolowTrip.virus.barcodes.sorted.tab, results//MFL.ReolowTrip/MFL.ReolowTrip.virus.barcoded.sam
+    jobid: 20
+    wildcards: path=results//MFL.ReolowTrip, sample=MFL.ReolowTrip
+    threads: 4
+
+Removing temporary output file results//MFL.ReolowTrip/MFL.ReolowTrip.virusaln.sort.sam.
+Removing temporary output file results//MFL.ReolowTrip/MFL.ReolowTrip.virus.barcodes.sorted.tab.
+Finished job 20.
+23 of 61 steps (38%) done
+
+rule virus_depth:
+    input: results//MFL.ReolowTrip/MFL.ReolowTrip.virus.barcoded.sam, results//MFL.ReolowTrip/MFL.ReolowTrip.virusaln.samhead
+    output: results//MFL.ReolowTrip/MFL.ReolowTrip.virus.refined.sam, results//MFL.ReolowTrip/MFL.ReolowTrip.virus.refined.bam, results//MFL.ReolowTrip/MFL.ReolowTrip.virus.refined.sorted.bam, results//MFL.ReolowTrip/MFL.ReolowTrip.virus.depth, results//MFL.ReolowTrip/MFL.ReolowTrip.virus.refined.bed
+    jobid: 9
+    wildcards: path=results//MFL.ReolowTrip, sample=MFL.ReolowTrip
+    threads: 4
+
+Removing temporary output file results//MFL.ReolowTrip/MFL.ReolowTrip.virus.refined.sam.
+Finished job 9.
+24 of 61 steps (39%) done
+
+rule indicells:
+    input: results//MFL.ReolowTrip/MFL.ReolowTrip.virus.barcoded.sam
+    output: results//MFL.ReolowTrip/MFL.ReolowTrip.virvar.tab
+    jobid: 6
+    wildcards: path=results//MFL.ReolowTrip, sample=MFL.ReolowTrip
+
+Finished job 6.
+25 of 61 steps (41%) done
+Finished job 48.
+26 of 61 steps (43%) done
+
+rule stage3:
+    input: results//IFL.ReolowTrip/IFL.ReolowTrip_tagged_unmapped.bam, results//IFL.ReolowTrip/IFL.ReolowTrip_Aligned_sorted.sam
+    output: results//IFL.ReolowTrip/IFL.ReolowTrip_gene_exon_tagged.bam
+    jobid: 39
+    wildcards: path=results//IFL.ReolowTrip, sample=IFL.ReolowTrip
+    threads: 2
+
+Finished job 21.
+27 of 61 steps (44%) done
+
+rule viral_clean:
+    input: /workdir/Data/SingleCell/IReg.ReolowTrip.R1.fastq.gz, results//IReg.ReolowTrip/IReg.ReolowTrip.virusaln.list
+    output: results//IReg.ReolowTrip/IReg.ReolowTrip.totalvircounts.tab, results//IReg.ReolowTrip/IReg.ReolowTrip.virus.0.tmp, results//IReg.ReolowTrip/IReg.ReolowTrip.virus.1.tmp, results//IReg.ReolowTrip/IReg.ReolowTrip.virus.2.tmp, results//IReg.ReolowTrip/IReg.ReolowTrip.virus.3.tmp, results//IReg.ReolowTrip/IReg.ReolowTrip.virus.barcodes.tab
+    jobid: 30
+    wildcards: path=results//IReg.ReolowTrip, sample=IReg.ReolowTrip
+
+Removing temporary output file results//IReg.ReolowTrip/IReg.ReolowTrip.virus.0.tmp.
+Removing temporary output file results//IReg.ReolowTrip/IReg.ReolowTrip.virus.1.tmp.
+Removing temporary output file results//IReg.ReolowTrip/IReg.ReolowTrip.virus.2.tmp.
+Removing temporary output file results//IReg.ReolowTrip/IReg.ReolowTrip.virus.3.tmp.
+Finished job 30.
+28 of 61 steps (46%) done
+
+rule virus_clarity:
+    input: results//IReg.ReolowTrip/IReg.ReolowTrip.virusaln.sam, results//IReg.ReolowTrip/IReg.ReolowTrip.virus.barcodes.tab
+    output: results//IReg.ReolowTrip/IReg.ReolowTrip.virgenes.tab, results//IReg.ReolowTrip/IReg.ReolowTrip.virusaln.sort.sam, results//IReg.ReolowTrip/IReg.ReolowTrip.virus.barcodes.sorted.tab, results//IReg.ReolowTrip/IReg.ReolowTrip.virus.barcoded.sam
+    jobid: 18
+    wildcards: path=results//IReg.ReolowTrip, sample=IReg.ReolowTrip
+    threads: 4
+
+Removing temporary output file results//IReg.ReolowTrip/IReg.ReolowTrip.virusaln.sort.sam.
+Removing temporary output file results//IReg.ReolowTrip/IReg.ReolowTrip.virus.barcodes.sorted.tab.
+Finished job 18.
+29 of 61 steps (48%) done
+
+rule indicells:
+    input: results//IReg.ReolowTrip/IReg.ReolowTrip.virus.barcoded.sam
+    output: results//IReg.ReolowTrip/IReg.ReolowTrip.virvar.tab
+    jobid: 4
+    wildcards: path=results//IReg.ReolowTrip, sample=IReg.ReolowTrip
+
+rule virus_depth:
+    input: results//IReg.ReolowTrip/IReg.ReolowTrip.virus.barcoded.sam, results//IReg.ReolowTrip/IReg.ReolowTrip.virusaln.samhead
+    output: results//IReg.ReolowTrip/IReg.ReolowTrip.virus.refined.sam, results//IReg.ReolowTrip/IReg.ReolowTrip.virus.refined.bam, results//IReg.ReolowTrip/IReg.ReolowTrip.virus.refined.sorted.bam, results//IReg.ReolowTrip/IReg.ReolowTrip.virus.depth, results//IReg.ReolowTrip/IReg.ReolowTrip.virus.refined.bed
+    jobid: 7
+    wildcards: path=results//IReg.ReolowTrip, sample=IReg.ReolowTrip
+    threads: 4
+
+Removing temporary output file results//IReg.ReolowTrip/IReg.ReolowTrip.virus.refined.sam.
+Finished job 7.
+30 of 61 steps (49%) done
+Finished job 4.
+31 of 61 steps (51%) done
+Finished job 15.
+32 of 61 steps (52%) done
+
+rule viral_clean:
+    input: /workdir/Data/SingleCell/IFL.ReolowTrip.R1.fastq.gz, results//IFL.ReolowTrip/IFL.ReolowTrip.virusaln.list
+    output: results//IFL.ReolowTrip/IFL.ReolowTrip.totalvircounts.tab, results//IFL.ReolowTrip/IFL.ReolowTrip.virus.0.tmp, results//IFL.ReolowTrip/IFL.ReolowTrip.virus.1.tmp, results//IFL.ReolowTrip/IFL.ReolowTrip.virus.2.tmp, results//IFL.ReolowTrip/IFL.ReolowTrip.virus.3.tmp, results//IFL.ReolowTrip/IFL.ReolowTrip.virus.barcodes.tab
+    jobid: 28
+    wildcards: path=results//IFL.ReolowTrip, sample=IFL.ReolowTrip
+
+Removing temporary output file results//IFL.ReolowTrip/IFL.ReolowTrip.virus.0.tmp.
+Removing temporary output file results//IFL.ReolowTrip/IFL.ReolowTrip.virus.1.tmp.
+Removing temporary output file results//IFL.ReolowTrip/IFL.ReolowTrip.virus.2.tmp.
+Removing temporary output file results//IFL.ReolowTrip/IFL.ReolowTrip.virus.3.tmp.
+Finished job 28.
+33 of 61 steps (54%) done
+
+rule virus_clarity:
+    input: results//IFL.ReolowTrip/IFL.ReolowTrip.virusaln.sam, results//IFL.ReolowTrip/IFL.ReolowTrip.virus.barcodes.tab
+    output: results//IFL.ReolowTrip/IFL.ReolowTrip.virgenes.tab, results//IFL.ReolowTrip/IFL.ReolowTrip.virusaln.sort.sam, results//IFL.ReolowTrip/IFL.ReolowTrip.virus.barcodes.sorted.tab, results//IFL.ReolowTrip/IFL.ReolowTrip.virus.barcoded.sam
+    jobid: 16
+    wildcards: path=results//IFL.ReolowTrip, sample=IFL.ReolowTrip
+    threads: 4
+
+Removing temporary output file results//IFL.ReolowTrip/IFL.ReolowTrip.virusaln.sort.sam.
+Removing temporary output file results//IFL.ReolowTrip/IFL.ReolowTrip.virus.barcodes.sorted.tab.
+Finished job 16.
+34 of 61 steps (56%) done
+
+rule indicells:
+    input: results//IFL.ReolowTrip/IFL.ReolowTrip.virus.barcoded.sam
+    output: results//IFL.ReolowTrip/IFL.ReolowTrip.virvar.tab
+    jobid: 10
+    wildcards: path=results//IFL.ReolowTrip, sample=IFL.ReolowTrip
+
+rule virus_depth:
+    input: results//IFL.ReolowTrip/IFL.ReolowTrip.virus.barcoded.sam, results//IFL.ReolowTrip/IFL.ReolowTrip.virusaln.samhead
+    output: results//IFL.ReolowTrip/IFL.ReolowTrip.virus.refined.sam, results//IFL.ReolowTrip/IFL.ReolowTrip.virus.refined.bam, results//IFL.ReolowTrip/IFL.ReolowTrip.virus.refined.sorted.bam, results//IFL.ReolowTrip/IFL.ReolowTrip.virus.depth, results//IFL.ReolowTrip/IFL.ReolowTrip.virus.refined.bed
+    jobid: 2
+    wildcards: path=results//IFL.ReolowTrip, sample=IFL.ReolowTrip
+    threads: 4
+
+Removing temporary output file results//IFL.ReolowTrip/IFL.ReolowTrip.virus.refined.sam.
+Finished job 2.
+35 of 61 steps (57%) done
+Finished job 37.
+36 of 61 steps (59%) done
+
+rule mv_files:
+    input: results//IS2.ReolowTrip/logs/IS2.ReolowTrip_STAR_Aligned.out.sam, results//IS2.ReolowTrip/logs/IS2.ReolowTrip_STAR_Unmapped.out.mate1
+    output: results//IS2.ReolowTrip/IS2.ReolowTrip_Aligned.sam, results//IS2.ReolowTrip/IS2.ReolowTrip_STAR_host_unaligned.fastq
+    jobid: 26
+    wildcards: path=results//IS2.ReolowTrip, sample=IS2.ReolowTrip
+
+Finished job 26.
+37 of 61 steps (61%) done
+
+rule sort:
+    input: results//IS2.ReolowTrip/IS2.ReolowTrip_Aligned.sam
+    output: results//IS2.ReolowTrip/IS2.ReolowTrip_Aligned_sorted.sam
+    jobid: 53
+    wildcards: path=results//IS2.ReolowTrip, sample=IS2.ReolowTrip
+
+rule viral_aln:
+    input: results//IS2.ReolowTrip/IS2.ReolowTrip_STAR_host_unaligned.fastq
+    output: results//IS2.ReolowTrip/IS2.ReolowTrip.nonhost.filter.fastq, results//IS2.ReolowTrip/IS2.ReolowTrip.virusaln.sam, results//IS2.ReolowTrip/IS2.ReolowTrip.virusaln.samhead, results//IS2.ReolowTrip/IS2.ReolowTrip.virusaln.bam, results//IS2.ReolowTrip/IS2.ReolowTrip.virusaln.list
+    jobid: 14
+    wildcards: path=results//IS2.ReolowTrip, sample=IS2.ReolowTrip
+    threads: 4
+
+Finished job 10.
+38 of 61 steps (62%) done
+Finished job 53.
+39 of 61 steps (64%) done
+
+rule stage3:
+    input: results//IS2.ReolowTrip/IS2.ReolowTrip_tagged_unmapped.bam, results//IS2.ReolowTrip/IS2.ReolowTrip_Aligned_sorted.sam
+    output: results//IS2.ReolowTrip/IS2.ReolowTrip_gene_exon_tagged.bam
+    jobid: 42
+    wildcards: path=results//IS2.ReolowTrip, sample=IS2.ReolowTrip
+    threads: 2
+
+Finished job 44.
+40 of 61 steps (66%) done
+
+rule bead_errors_metrics:
+    input: results//MFL.ReolowTrip/MFL.ReolowTrip_gene_exon_tagged.bam
+    output: results//MFL.ReolowTrip/MFL.ReolowTrip_final.bam
+    jobid: 36
+    wildcards: path=results//MFL.ReolowTrip, sample=MFL.ReolowTrip
+
+Finished job 40.
+41 of 61 steps (67%) done
+
+rule bead_errors_metrics:
+    input: results//IReg.ReolowTrip/IReg.ReolowTrip_gene_exon_tagged.bam
+    output: results//IReg.ReolowTrip/IReg.ReolowTrip_final.bam
+    jobid: 31
+    wildcards: path=results//IReg.ReolowTrip, sample=IReg.ReolowTrip
+
+Finished job 39.
+42 of 61 steps (69%) done
+
+rule bead_errors_metrics:
+    input: results//IFL.ReolowTrip/IFL.ReolowTrip_gene_exon_tagged.bam
+    output: results//IFL.ReolowTrip/IFL.ReolowTrip_final.bam
+    jobid: 29
+    wildcards: path=results//IFL.ReolowTrip, sample=IFL.ReolowTrip
+
+Finished job 14.
+43 of 61 steps (70%) done
+
+rule viral_clean:
+    input: /workdir/Data/SingleCell/IS2.ReolowTrip.R1.fastq.gz, results//IS2.ReolowTrip/IS2.ReolowTrip.virusaln.list
+    output: results//IS2.ReolowTrip/IS2.ReolowTrip.totalvircounts.tab, results//IS2.ReolowTrip/IS2.ReolowTrip.virus.0.tmp, results//IS2.ReolowTrip/IS2.ReolowTrip.virus.1.tmp, results//IS2.ReolowTrip/IS2.ReolowTrip.virus.2.tmp, results//IS2.ReolowTrip/IS2.ReolowTrip.virus.3.tmp, results//IS2.ReolowTrip/IS2.ReolowTrip.virus.barcodes.tab
+    jobid: 25
+    wildcards: path=results//IS2.ReolowTrip, sample=IS2.ReolowTrip
+
+Removing temporary output file results//IS2.ReolowTrip/IS2.ReolowTrip.virus.0.tmp.
+Removing temporary output file results//IS2.ReolowTrip/IS2.ReolowTrip.virus.1.tmp.
+Removing temporary output file results//IS2.ReolowTrip/IS2.ReolowTrip.virus.2.tmp.
+Removing temporary output file results//IS2.ReolowTrip/IS2.ReolowTrip.virus.3.tmp.
+Finished job 25.
+44 of 61 steps (72%) done
+
+rule virus_clarity:
+    input: results//IS2.ReolowTrip/IS2.ReolowTrip.virusaln.sam, results//IS2.ReolowTrip/IS2.ReolowTrip.virus.barcodes.tab
+    output: results//IS2.ReolowTrip/IS2.ReolowTrip.virgenes.tab, results//IS2.ReolowTrip/IS2.ReolowTrip.virusaln.sort.sam, results//IS2.ReolowTrip/IS2.ReolowTrip.virus.barcodes.sorted.tab, results//IS2.ReolowTrip/IS2.ReolowTrip.virus.barcoded.sam
+    jobid: 13
+    wildcards: path=results//IS2.ReolowTrip, sample=IS2.ReolowTrip
+    threads: 4
+
+Removing temporary output file results//IS2.ReolowTrip/IS2.ReolowTrip.virusaln.sort.sam.
+Removing temporary output file results//IS2.ReolowTrip/IS2.ReolowTrip.virus.barcodes.sorted.tab.
+Finished job 13.
+45 of 61 steps (74%) done
+
+rule virus_depth:
+    input: results//IS2.ReolowTrip/IS2.ReolowTrip.virus.barcoded.sam, results//IS2.ReolowTrip/IS2.ReolowTrip.virusaln.samhead
+    output: results//IS2.ReolowTrip/IS2.ReolowTrip.virus.refined.sam, results//IS2.ReolowTrip/IS2.ReolowTrip.virus.refined.bam, results//IS2.ReolowTrip/IS2.ReolowTrip.virus.refined.sorted.bam, results//IS2.ReolowTrip/IS2.ReolowTrip.virus.depth, results//IS2.ReolowTrip/IS2.ReolowTrip.virus.refined.bed
+    jobid: 1
+    wildcards: path=results//IS2.ReolowTrip, sample=IS2.ReolowTrip
+    threads: 4
+
+rule indicells:
+    input: results//IS2.ReolowTrip/IS2.ReolowTrip.virus.barcoded.sam
+    output: results//IS2.ReolowTrip/IS2.ReolowTrip.virvar.tab
+    jobid: 11
+    wildcards: path=results//IS2.ReolowTrip, sample=IS2.ReolowTrip
+
+Removing temporary output file results//IS2.ReolowTrip/IS2.ReolowTrip.virus.refined.sam.
+Finished job 1.
+46 of 61 steps (75%) done
+Finished job 11.
+47 of 61 steps (77%) done
+Finished job 31.
+48 of 61 steps (79%) done
+
+rule extract_expression:
+    input: results//IReg.ReolowTrip/IReg.ReolowTrip_final.bam
+    output: results//IReg.ReolowTrip/IReg.ReolowTrip_expression_matrix.txt.gz, results//IReg.ReolowTrip/IReg.ReolowTrip_dge.summary.txt
+    jobid: 19
+    wildcards: path=results//IReg.ReolowTrip, sample=IReg.ReolowTrip
+
+Finished job 36.
+49 of 61 steps (80%) done
+
+rule extract_expression:
+    input: results//MFL.ReolowTrip/MFL.ReolowTrip_final.bam
+    output: results//MFL.ReolowTrip/MFL.ReolowTrip_expression_matrix.txt.gz, results//MFL.ReolowTrip/MFL.ReolowTrip_dge.summary.txt
+    jobid: 24
+    wildcards: path=results//MFL.ReolowTrip, sample=MFL.ReolowTrip
+
+Finished job 42.
+50 of 61 steps (82%) done
+
+rule bead_errors_metrics:
+    input: results//IS2.ReolowTrip/IS2.ReolowTrip_gene_exon_tagged.bam
+    output: results//IS2.ReolowTrip/IS2.ReolowTrip_final.bam
+    jobid: 34
+    wildcards: path=results//IS2.ReolowTrip, sample=IS2.ReolowTrip
+
+Finished job 19.
+51 of 61 steps (84%) done
+
+rule gunzip:
+    input: results//IReg.ReolowTrip/IReg.ReolowTrip_expression_matrix.txt.gz
+    output: results//IReg.ReolowTrip/IReg.ReolowTrip_expression_matrix.txt
+    jobid: 5
+    wildcards: path=results//IReg.ReolowTrip, sample=IReg.ReolowTrip
+
+Finished job 5.
+52 of 61 steps (85%) done
+Finished job 24.
+53 of 61 steps (87%) done
+
+rule gunzip:
+    input: results//MFL.ReolowTrip/MFL.ReolowTrip_expression_matrix.txt.gz
+    output: results//MFL.ReolowTrip/MFL.ReolowTrip_expression_matrix.txt
+    jobid: 12
+    wildcards: path=results//MFL.ReolowTrip, sample=MFL.ReolowTrip
+
+Finished job 12.
+54 of 61 steps (89%) done
+Finished job 29.
+55 of 61 steps (90%) done
+
+rule extract_expression:
+    input: results//IFL.ReolowTrip/IFL.ReolowTrip_final.bam
+    output: results//IFL.ReolowTrip/IFL.ReolowTrip_expression_matrix.txt.gz, results//IFL.ReolowTrip/IFL.ReolowTrip_dge.summary.txt
+    jobid: 17
+    wildcards: path=results//IFL.ReolowTrip, sample=IFL.ReolowTrip
+
+Finished job 17.
+56 of 61 steps (92%) done
+
+rule gunzip:
+    input: results//IFL.ReolowTrip/IFL.ReolowTrip_expression_matrix.txt.gz
+    output: results//IFL.ReolowTrip/IFL.ReolowTrip_expression_matrix.txt
+    jobid: 3
+    wildcards: path=results//IFL.ReolowTrip, sample=IFL.ReolowTrip
+
+Finished job 3.
+57 of 61 steps (93%) done
+Finished job 34.
+58 of 61 steps (95%) done
+
+rule extract_expression:
+    input: results//IS2.ReolowTrip/IS2.ReolowTrip_final.bam
+    output: results//IS2.ReolowTrip/IS2.ReolowTrip_expression_matrix.txt.gz, results//IS2.ReolowTrip/IS2.ReolowTrip_dge.summary.txt
+    jobid: 22
+    wildcards: path=results//IS2.ReolowTrip, sample=IS2.ReolowTrip
+
+Finished job 22.
+59 of 61 steps (97%) done
+
+rule gunzip:
+    input: results//IS2.ReolowTrip/IS2.ReolowTrip_expression_matrix.txt.gz
+    output: results//IS2.ReolowTrip/IS2.ReolowTrip_expression_matrix.txt
+    jobid: 8
+    wildcards: path=results//IS2.ReolowTrip, sample=IS2.ReolowTrip
+
+Finished job 8.
+60 of 61 steps (98%) done
+
+localrule all:
+    input: results//IFL.ReolowTrip/IFL.ReolowTrip_expression_matrix.txt, results//MFL.ReolowTrip/MFL.ReolowTrip_expression_matrix.txt, results//IS2.ReolowTrip/IS2.ReolowTrip_expression_matrix.txt, results//IReg.ReolowTrip/IReg.ReolowTrip_expression_matrix.txt, results//IFL.ReolowTrip/IFL.ReolowTrip.virus.refined.bed, results//MFL.ReolowTrip/MFL.ReolowTrip.virus.refined.bed, results//IS2.ReolowTrip/IS2.ReolowTrip.virus.refined.bed, results//IReg.ReolowTrip/IReg.ReolowTrip.virus.refined.bed, results//IFL.ReolowTrip/IFL.ReolowTrip.virvar.tab, results//MFL.ReolowTrip/MFL.ReolowTrip.virvar.tab, results//IS2.ReolowTrip/IS2.ReolowTrip.virvar.tab, results//IReg.ReolowTrip/IReg.ReolowTrip.virvar.tab
+    jobid: 0
+
+Finished job 0.
+61 of 61 steps (100%) done

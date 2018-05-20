@@ -1,0 +1,3 @@
+
+			bin/Drop-seq_tools-1.12//DigitalExpression 				I=results//IPM.Reolow3/IPM.Reolow3_final.bam 				O=results//IPM.Reolow3/IPM.Reolow3_expression_matrix.txt.gz 				SUMMARY=results//IPM.Reolow3/IPM.Reolow3_dge.summary.txt 				NUM_CORE_BARCODES=5000 ;
+			

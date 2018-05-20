@@ -1,0 +1,4 @@
+bin/Drop-seq_tools-1.12//DetectBeadSynthesisErrors				INPUT=results//test/test_gene_exon_tagged.bam				OUTPUT=results//test/test_final.bam				OUTPUT_STATS=results//test/logs/test_synthesis_stats.txt				SUMMARY=results//test/logs/test_synthesis_summary.txt				NUM_BARCODES=2000				PRIMER_SEQUENCE=AAGCAGTGGTATCAACGCAGAGTAC;
+				bin/Drop-seq_tools-1.12//SingleCellRnaSeqMetricsCollector				INPUT=results//test/test_gene_exon_tagged.bam				OUTPUT=results//test/logs/test_rna_metrics.txt				ANNOTATIONS_FILE=references/mm10/mm10.refFlat				NUM_CORE_BARCODES=1000 ; 
+				RIBOSOMAL_INTERVALS=references/mm10/mm10.rRNA.intervals
+				

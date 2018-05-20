@@ -1,0 +1,52 @@
+Samples:
+    Lcell_T3Dpos_DARTseq_1:
+        fraction: 0.001
+        expected_cells: 1000
+    Lcell_T3Dpos_DARTseq_0:
+        fraction: 0.001
+        expected_cells: 1000
+    Lcell_T3Dpos_Dropseq_0:
+        fraction: 0.001
+        expected_cells: 1000
+    Lcell_T3Dneg_DARTseq_0:
+        fraction: 0.001
+        expected_cells: 1000
+
+CORES: 4
+
+#PATHS
+PIPELINE_MAJOR: results/
+TMPDIR: /workdir/psb84/scViral/temp
+DROPSEQ: bin/Drop-seq_tools-1.12/
+SAMPWDIR: /workdir/psb84/scViral/V1
+
+#PROGRAM
+PICARD: /programs/picard-tools-2.1.1/picard.jar
+STAREXEC: /programs/STAR-2.5.3a/bin/Linux_x86_64_static/STAR
+FASTQCEXEC: fastqc
+SAMEXEC: /programs/samtools-1.6/bin/samtools
+BWAEXEC: /programs/bwa-0.7.8/bwa mem
+BAREXEC: bin/programs/bam-readcount-master/bin/bam-readcount
+BEDEXEC: /programs/bedtools2-2.26.0/bin/bedtools
+BAM_READCOUNT: bin/programs/bam-readcount-master/bin/bam-readcount
+SAMPWDIR: /workdir/psb84/scViral/V1
+
+
+#REFERENCE GENOMES
+GENOMEREF: references/mm10/mm10.fasta
+REFFLAT: references/mm10/mm10.refFlat
+METAREF: references/mm10/mm10_STAR_Index 
+RRNAINTERVALS: references/mm10/mm10.rRNA.intervals
+VIRALFASTA: references/Reo/reo_T3D.fasta
+
+
+SPECIES:
+    - Mouse
+GLOBAL:
+    allowed_mismatch: 10
+    BC_range:
+        first: 1
+        last: 12
+    UMI_range:
+        first: 13
+        last: 20

@@ -1,0 +1,98 @@
+File path results//test/test.viablecells.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/test_gene_exon_tagged.flagstat contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/summary/test_expression_matrix.txt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/test.viablecells.tab contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/test_gene_exon_tagged.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/test_gene_exon_tagged.flagstat contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/summary/test_expression_matrix.txt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/summary/test_expression_matrix.txt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/test_final.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/summary/test_expression_matrix.txt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/test_gene_exon_tagged.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/test_final.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/test_tagged_unmapped.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/test_Aligned_sorted.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/test_gene_exon_tagged.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/test_unaligned.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/test_tagged_unmapped.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/test_Aligned.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/test_Aligned_sorted.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/test_unaligned.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/logs/test_STAR_Aligned.out.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/logs/test_STAR_Unmapped.out.mate1 contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/test_Aligned.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/test_STAR_host_unaligned.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/test_tagged_unmapped.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/logs/test_STAR_Aligned.out.sam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/logs/test_STAR_Unmapped.out.mate1 contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/test_tagged_unmapped.bam contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path results//test/test_tagged_unmapped.fastq contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+Provided cores: 12
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	STAR_align
+	1	all
+	1	bead_errors_metrics
+	1	extract_expression
+	1	fastq_to_sam
+	1	gunzip
+	1	host_align_stats
+	1	hostpathstats
+	1	mv_files
+	1	sam_to_fastq
+	1	sort
+	1	stage1
+	1	stage3
+	13
+
+rule fastq_to_sam:
+    input: data/test.R1.fastq.gz, data/test.R2.fastq.gz
+    output: results//test/test_unaligned.bam
+    jobid: 9
+    wildcards: path=results//test, sample=test
+
+Finished job 9.
+1 of 13 steps (8%) done
+
+rule stage1:
+    input: results//test/test_unaligned.bam
+    output: results//test/test_tagged_unmapped.bam
+    jobid: 6
+    wildcards: path=results//test, sample=test
+    threads: 4
+
+Removing temporary output file results//test/test_unaligned.bam.
+Finished job 6.
+2 of 13 steps (15%) done
+
+rule sam_to_fastq:
+    input: results//test/test_tagged_unmapped.bam
+    output: results//test/test_tagged_unmapped.fastq
+    jobid: 12
+    wildcards: path=results//test, sample=test
+
+Finished job 12.
+3 of 13 steps (23%) done
+
+rule STAR_align:
+    input: results//test/test_tagged_unmapped.fastq
+    output: results//test/logs/test_STAR_Aligned.out.sam, results//test/logs/test_STAR_Unmapped.out.mate1
+    jobid: 11
+    wildcards: path=results//test, sample=test
+    threads: 8
+
+Terminating processes on user request.
+Error in rule STAR_align:
+    jobid: 11
+    output: results//test/logs/test_STAR_Aligned.out.sam, results//test/logs/test_STAR_Unmapped.out.mate1
+
+RuleException:
+CalledProcessError in line 140 of /local/workdir/psb84/DART-seq/ViralInfections/Snakefile:
+Command ' set -euo pipefail;  
+			/programs/STAR-2.5.3a/bin/Linux_x86_64_static/STAR 				--genomeDir references/mm10/mm10_STAR_Index 				--runThreadN 4 				--outFilterMismatchNmax=10 				--readFilesIn results//test/test_tagged_unmapped.fastq 				--genomeLoad LoadAndKeep 				--outReadsUnmapped Fastx 				--outFileNamePrefix results//test/logs/test_STAR_ ; ' died with <Signals.SIGINT: 2>.
+  File "/local/workdir/psb84/DART-seq/ViralInfections/Snakefile", line 140, in __rule_STAR_align
+  File "/usr/local/lib/python3.6/concurrent/futures/thread.py", line 55, in run
+Removing output files of failed job STAR_align since they might be corrupted:
+results//test/logs/test_STAR_Aligned.out.sam, results//test/logs/test_STAR_Unmapped.out.mate1
+Complete log: .snakemake/log/2018-04-25T160049.683316.snakemake.log
