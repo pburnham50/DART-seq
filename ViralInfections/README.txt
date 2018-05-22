@@ -13,7 +13,7 @@ single target on each of ten gene segments, infected cells [GEO label "Lcell_T3D
 
 # Steps to generate data and figures
 1) Download data and place both reads for each sample in data/ .
-2) Adjust names accordingly above if planning on using final Rscripts for figure generation.
+2) Download mm10 transcriptome files and place in references/mm10/ . Index using STAR.
 3) Create the environment by running the following in the DART-seq directory:
 	"conda env create --name DARTseq --file environment.yaml"
 4) Activate the enviroment:

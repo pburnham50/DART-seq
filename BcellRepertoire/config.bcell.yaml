@@ -1,0 +1,35 @@
+#configuration file for snakemake for Bcells
+
+Samples:
+  PBMC_DARTseq_0:
+  PBMC_Dropseq_0:
+
+SAMPWDIR:   results/
+DATADIR: data/ 
+TMPDIR: temp
+
+PIPELINE_MAJOR: results 
+
+GENOMEREF: references/hg19/genome.fa
+REFFLAT: references/hg19/hg19.refFlat
+METAREF: references/hg19/Hg19_STAR_index/
+RRNAINTERVALS: references/hg19/hg19.rRNA.interval_list 
+
+SPECIES:
+    - PBMC
+GLOBAL: ### variable
+    allowed_mismatch: 10
+    BC_range:
+        first: 1
+        last: 12
+    UMI_range:
+        first: 13
+        last: 20
+
+BOWTIE: /programs/bowtie2-2.3.0/bowtie2
+PICARD: /programs/picard-tools-2.1.1/picard.jar
+DROPSEQ: /home/av486/Desktop/Tools/Drop-seq_tools-1.12/
+MIXCR: bin/mixcr-2.1.5/mixcr
+STAREXEC: /programs/STAR-2.5/bin/Linux_x86_64/STAR
+FASTQCEXEC: fastqc
+CORES: 4 
